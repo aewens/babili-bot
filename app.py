@@ -4,12 +4,8 @@ from bot import Bot
 
 bot = Bot("127.0.0.1", 6667, "BabiliBot|py", ["#bots"])
 
-def processor(message):
-    if "PRIVMSG" in message:
-        name, source, response = parse(message)
-        bot.send_message(source, "Got response")
-    if "PING :" in message:
-        ping(message)
+def processor(name, source, response):
+    bot.send_message(source, "Got response")
 
 if __name__ == "__main__":
     bot.start(processor, "settings.json")

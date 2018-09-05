@@ -17,11 +17,11 @@ class Bot:
         print("DEBUG: ", response)
         self.ircsock.send(response.encode())
 
-    def send_message(target, message, *args):
+    def send_message(self, target, message, *args):
         msg = message.format(*args)
         response = "PRIVMSG {0} :{1}".format(target, msg) + "\n"
         print("DEBUG: ", response)
-        ircsock.send(response.encode())
+        self.ircsock.send(response.encode())
 
     def join(self, chan, confirmed=False):
         self.send("JOIN {}", chan)
@@ -71,7 +71,7 @@ class Bot:
                 registered = True
             if not registered and "choose a different nick" in message:
                 self.send_message("NickServ", "IDENTIFY {}", password)
-            if not confirmed and "Your account will expire" i message:
+            if not confirmed and "Your account will expire" in message:
                 self.send_message("NickServ", "CONFIRM {}", self.confirm)
                 confirmed = True
 
@@ -87,6 +87,12 @@ class Bot:
             message = message.strip('\n\r')
             print(message)
 
-        callback()
+            if "PRIVMSG" in message:
+                name, source, response = self.parse(message)
+                callback(name, source, response)
+            if "PING :" in message:
+                self.ping(message)
+
+            
 
     # = #channel :
