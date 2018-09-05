@@ -9,6 +9,7 @@ class Bot:
         self.botnick = botnick
         self.channels = channels
         self.running = True
+        self.users = dict()
 
         self.recv_size = 2048
 
@@ -33,6 +34,14 @@ class Bot:
             message = message.strip("\n\r")
             print(message)
 
+        user_list = "= {} :".format(chan)
+        raw_users = message.split(user_list)[1].split(" \r\n")[0].split(" ")
+        prefix_filter = lambda u: u[1:] if "~" in u or "@" in u else u
+        users = list(filter(prefix_filter, raw_users))
+        for user in users:
+            if user not in self.users:
+                self.users[user] = dict()
+
     def ping(self, message):
         response = message.split("PING :")[1]
         self.send("PONG :{0}", response)
@@ -42,6 +51,14 @@ class Bot:
         name = before.split("!", 1)[0][1:]
         source, response = after.split(" :", 1)
         return name, source, response
+
+    def track_rename(self, message):
+        # :aewens|otg!aewensotg@tilde.team NICK aewens|otg2
+        before, new_name = message.split("NICK ", 1)
+        name = before.split("!", 1)[0][1:]
+        user = self.users[name]
+        del self.users[name]
+        self.users[new_name] = user
 
     def load_settings(self, location):
         with open(location, "r") as f:
@@ -84,15 +101,13 @@ class Bot:
 
         while self.running:
             message = self.ircsock.recv(self.recv_size).decode("UTF-8")
-            message = message.strip('\n\r')
+            message = message.strip("\n\r")
             print(message)
 
-            if "PRIVMSG" in message:
-                name, source, response = self.parse(message)
-                callback(name, source, response)
             if "PING :" in message:
                 self.ping(message)
-
-            
-
-    # = #channel :
+            elif "NICK " in message:
+                self.track_rename(message)
+            elif "PRIVMSG" in message:
+                name, source, response = self.parse(message)
+                callback(name, source, response)
