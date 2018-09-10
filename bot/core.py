@@ -109,6 +109,8 @@ class Bot:
                 self.send_message("NickServ", "CONFIRM {}", self.confirm)
                 confirmed = True
 
+        self.send("MODE {} +B".format(self.botnick))
+
         print("DEBUG: Joining")
         
         for channel in self.channels:
