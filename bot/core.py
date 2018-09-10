@@ -68,7 +68,6 @@ class Bot:
         self.join(channel)
 
     def log_kick(self, message):
-        # :aewens!aewens@rightful.heir.to.chaos KICK #insane BabiliBot|py :aewens
         regex = "KICK #\S+ {} :".format(self.botnick)
         before, kicker = re.split(regex, message)
         self.kickers.append(kicker)
