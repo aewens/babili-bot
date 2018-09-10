@@ -1,5 +1,6 @@
 # App-specific
 settings.json
+irc/
 
 # ---> Python
 # Byte-compiled / optimized / DLL files
