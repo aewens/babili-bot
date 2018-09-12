@@ -11,12 +11,9 @@ class Bot:
         self.channels = channels
         self.running = True
         
+        self.settings = dict()
         self.users = dict()
-        self.kickers = list()
-        self.invites = list()
-
         self.author = ""
-        self.kingme = []
 
         self.recv_size = 2048
         self.splitter = "\n\r"
@@ -41,9 +38,6 @@ class Bot:
             message = self.ircsock.recv(self.recv_size).decode()
             message = message.strip(self.splitter)
             print(message)
-
-        if chan in self.kingme:
-            self.try_to_king_me(chan)
 
         user_list = "= {} :".format(chan)
         raw_users = message.split(user_list)[1].split(" \r\n")[0].split(" ")
@@ -85,31 +79,20 @@ class Bot:
         name = self.get_name(before)
         channel = after.split(":", 1)[1]
         self.join(channel)
-        self.invites.append({
-            "name": name,
-            "channel": channel
-        })
         return channel, name
 
     def handle_kick(self, message):
         regex = "KICK #\S+ {} :".format(self.botnick)
         before, kicker = re.split(regex, message)
-        self.kickers.append(kicker)
         return kicker
 
-    def try_to_king_me(self, chan):
-        self.send_message("ChanServ", "REGISTER {}", chan)
-        self.send_message("ChanServ", "SET Successor {} {}", chan, self.botnick)
-        self.send_message("ChanServ", "SET Founder {} {}", chan, self.author)
-
     def load_settings(self, location):
+        set_vars = [
+            "author"
+        ]
+
         with open(location, "r") as f:
             self.settings = json.loads(f.read())
-
-        set_vars = [
-            "author",
-            "kingme"
-        ]
 
         for name, attr in self.settings.items():
             if name in set_vars:
@@ -196,6 +179,5 @@ class Bot:
                     callback["pm"](name, response)
                 elif "message" in callback:
                     callback["message"](name, source, response)
-            else:
-                if "unhandled" in callback:
+            elif "unhandled" in callback:
                     callback["unhandled"](message)
