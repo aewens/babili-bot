@@ -1,6 +1,7 @@
 import re
 import json
 import socket
+import os.path
 
 class Bot:
     def __init__(self, server, port, botnick, channels):
@@ -12,7 +13,7 @@ class Bot:
         self.running = True
         
         self.settings = dict()
-        self.users = dict()
+        self.places = list()
         self.author = ""
 
         self.recv_size = 2048
@@ -29,8 +30,12 @@ class Bot:
         print("DEBUG: ", response)
         self.ircsock.send(response.encode())
 
+    def send_action(self, target, message, *args):
+        self.send_message(target, "\001ACTION {}\001".format(message), *args)
+
     def join(self, chan):
         self.send("JOIN {}", chan)
+        self.places.append(chan)
 
         message = ""
         magic_string = "End of /NAMES list."
@@ -43,9 +48,18 @@ class Bot:
         raw_users = message.split(user_list)[1].split(" \r\n")[0].split(" ")
         prefix_filter = lambda u: u[1:] if "~" in u or "@" in u else u
         users = list(filter(prefix_filter, raw_users))
+        remember = self.memories["users"]
         for user in users:
-            if user not in self.users:
-                self.users[user] = dict()
+            if user[0] == "~" or user[0] == "@":
+                user = user[1:]
+
+            if user not in remember:
+                self.memories["users"][user] = dict()
+
+    def leave(self, chan):
+        message = "PART {} :Bye-bye!"
+        self.send(message, chan)
+        self.places.remove(chan)
 
     def ping(self, message):
         response = message.split("PING :")[1]
@@ -69,9 +83,9 @@ class Bot:
     def handle_rename(self, message):
         before, new_name = message.split("NICK ", 1)
         name = self.get_name(before)
-        user = self.users[name]
-        del self.users[name]
-        self.users[new_name] = user
+        user = self.memories["users"][name]
+        del self.memories["users"][name]
+        self.memories["users"][new_name] = user
         return user, new_name
 
     def handle_invite(self, message):
@@ -86,12 +100,46 @@ class Bot:
         before, kicker = re.split(regex, message)
         return kicker
 
+    def handle_join(self, message):
+        before, after = message.split("JOIN ", 1)
+        user = self.get_name(before)
+
+        if user not in self.memories["users"]:
+            self.memories["users"][user] = dict()
+
+        return user
+
+    def handle_part(self, message):
+        before, after = message.split("PART ", 1)
+        user = self.get_name(before)
+        return user
+
+    def load_memories(self, location):
+        path = "{}/{}".format(self.location, location)
+        self.memories_path = path
+
+        if not os.path.isfile(path):
+            self.memories = {
+                "users": dict()
+            }
+        else:
+            with open(path, "r") as f:
+                self.memories = json.loads(f.read())
+
+    def save_memories(self):
+        with open(self.memories_path, "w") as f:
+            try:
+                f.write(json.dumps(self.memories))
+            except ValueError as e:
+                f.write("")
+
     def load_settings(self, location):
         set_vars = [
             "author"
         ]
 
-        with open(location, "r") as f:
+        path = "{}/{}".format(self.location, location)
+        with open(path, "r") as f:
             self.settings = json.loads(f.read())
 
         for name, attr in self.settings.items():
@@ -102,7 +150,7 @@ class Bot:
         self.running = False
         self.send("QUIT")
 
-    def start(self, settings, callback):
+    def start(self, location, callback):
         message = ""
         registered = False
         confirmed = True
@@ -111,7 +159,9 @@ class Bot:
         self.send("USER {0} {0} {0} {0}", self.botnick)
         self.send("NICK {0}", self.botnick)
 
-        self.load_settings(settings)
+        self.location = location
+        self.load_settings("settings.json")
+        self.load_memories("data/memories.json")
 
         password = self.settings["password"] or ""
         confirm = self.settings["confirm"] or ""
@@ -169,6 +219,14 @@ class Bot:
                 kicker = self.handle_kick(message)
                 if "kick" in callback:
                     callback["kick"](kicker)
+            elif "JOIN " in message:
+                user = self.handle_join(message)
+                if "join" in callback:
+                    callback["join"](user)
+            elif "PART " in message:
+                user = self.handle_part(message)
+                if "part" in callback:
+                    callback["part"](user)
             elif "INVITE " in message:
                 channel, name = self.handle_invite(message)
                 if "invite" in callback:
