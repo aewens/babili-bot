@@ -3,6 +3,7 @@ from actions.summon import summon
 from actions.access import banish, pardon
 from actions.control import puppet, nomad
 from actions.stupid import hmm, hmmscore, hmmscoreboard
+from actions.web import whois
 
 actions = [
     {
@@ -54,5 +55,10 @@ actions = [
         "type": "response",
         "pattern": "!hmmscoreboard",
         "callback": hmmscoreboard
+    },
+    {
+        "type": "response",
+        "pattern": ";;!whois \S+",
+        "callback": whois
     }
 ]
