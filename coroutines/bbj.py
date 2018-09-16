@@ -7,13 +7,13 @@ from re import sub
 
 class BBJ:
     def __init__(self, state):
-        self.name = "bbj"
+        self.name = "BBJ"
         self.bot = state["bot"]
+        self.alias = state["alias"]
         self.source = state["source"]
         self.channels = state["channels"] 
         self.memory = state.get("memory", {
             "initialized": False,
-            # "timestamp": datetime.now().timestamp(),
             "known": dict()
         })
 
@@ -27,6 +27,7 @@ class BBJ:
         self.fetch(self.mirror)
         return {
             "bot": self.bot,
+            "alias": self.alias,
             "source": self.source,
             "channels": self.channels,
             "memory": self.memory
@@ -51,7 +52,7 @@ class BBJ:
         link = "{}?thread_id={}".format(php, thread_id)
         for channel in self.channels:
             response = "'{}' ({}) : {} <{}>".format(title, username, body, link)
-            message = "[{}] {}".format(self.name, response)
+            message = "[{}] {}".format(self.alias, response)
             self.bot.send_message(channel, message)
 
     def get_thread(self, thread_id, callback):
