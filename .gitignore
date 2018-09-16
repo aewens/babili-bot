@@ -1,5 +1,8 @@
 # App-specific
 settings.json
+settings.demo.json
+data/*.json
+irc/
 
 # ---> Python
 # Byte-compiled / optimized / DLL files
