@@ -8,7 +8,10 @@ def botlist(self, name, source, response):
         "!rollcall",
         "!summon",
         "!banish",
-        "!pardon"
+        "!pardon",
+        "!hmmscore",
+        "!hmmscoreboard",
+        "!whois"
     ])
     args = (botnick, author, email, about, commands)
     message = "{} | {} <{}> | {} | {}".format(*args)

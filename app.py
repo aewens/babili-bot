@@ -9,10 +9,15 @@ from coroutines import coroutines
 debug = False
 kingme = [] if debug else ["#chaos"]
 channels = ["#bots", "#insane"] 
-# if not debug:
-#     channels.extend([])
+if not debug:
+    channels.extend([
+        "#meta",
+        "#team",
+        "#chaos",
+        "#tildeverse"
+    ])
 
-bot = Bot("127.0.0.1", 6667, "BabiliBot|py", channels)
+bot = Bot("127.0.0.1", 6667, "BabiliBot", channels)
 responses = Responses(bot)
 tasks = Tasks(bot)
 

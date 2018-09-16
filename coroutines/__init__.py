@@ -15,7 +15,7 @@ coroutines = [
         "state": {
             "alias": "bbj",
             "source": "http://localhost:7099/api",
-            "channels": ["#bots"] #team
+            "channels": ["#team"]
         }
     },
     {
@@ -25,7 +25,7 @@ coroutines = [
             "alias": "title",
             "source": "https://tilde.news/newest.rss",
             "use": "title",
-            "channels": ["#bots"] # "#meta", "#tildeverse"
+            "channels": ["#meta", "#tildeverse"]
         }
     },
     {
@@ -35,7 +35,7 @@ coroutines = [
             "alias": "links-comments",
             "source": "https://tilde.news/comments.rss",
             "use": "summary",
-            "channels": ["#bots"] #tildeverse
+            "channels": ["#tildeverse"]
         }
     }
 ]

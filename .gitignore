@@ -1,5 +1,6 @@
 # App-specific
 settings.json
+settings.demo.json
 data/*.json
 irc/
 

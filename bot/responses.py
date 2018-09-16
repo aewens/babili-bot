@@ -17,6 +17,9 @@ class Responses:
     def allowed(self, name, source):
         memories = self.bot.memories
         users = memories["users"]
+        if name not in users:
+            return False
+
         if name in users and "blacklist" in users[name]:
             reason = users[name]["blacklist"]["reason"]
             message = "is ignoring {} for reason '{}'".format(name, reason)
@@ -41,6 +44,11 @@ class Responses:
         return True
 
     def parse(self, name, source, response):
+        users = self.bot.memories["users"]
+        if name not in users:
+            return False
+
+        response = response.lower()
         check = {
             "name": name,
             "source": source,
