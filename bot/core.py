@@ -14,6 +14,7 @@ class Bot:
         
         self.settings = dict()
         self.places = list()
+        self.tasks = None
         self.author = ""
 
         self.recv_size = 2048
@@ -194,6 +195,10 @@ class Bot:
             self.join(channel)
 
         print("DEBUG: Joined")
+
+        if self.tasks is not None:
+            if getattr(self.tasks, "run", None) is not None:
+                self.tasks.run()
 
         while self.running:
             message = self.ircsock.recv(self.recv_size).decode()

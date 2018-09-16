@@ -1,9 +1,8 @@
 from actions.botlist import botlist
-from actions.summon import summon
+from actions.web import summon, whois
 from actions.access import banish, pardon
 from actions.control import puppet, nomad
 from actions.stupid import hmm, hmmscore, hmmscoreboard
-from actions.web import whois
 
 actions = [
     {

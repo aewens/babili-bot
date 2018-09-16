@@ -4,16 +4,17 @@ from os.path import dirname, realpath
 
 from bot import Bot, Tasks, Responses
 from actions import actions
+from coroutines import coroutines
 
-kingme = [
-    "#chaos"
-]
+debug = False
+kingme = [] if debug else ["#chaos"]
+channels = ["#bots", "#insane"] 
+# if not debug:
+#     channels.extend([])
 
-bot = Bot("127.0.0.1", 6667, "BabiliBot|py", [
-    "#bots",
-    "#insane"
-])
+bot = Bot("127.0.0.1", 6667, "BabiliBot|py", channels)
 responses = Responses(bot)
+tasks = Tasks(bot)
 
 for action in actions:
     if "type" in action and "pattern" in action and "callback" in action:
@@ -22,6 +23,14 @@ for action in actions:
             action["pattern"], 
             action["callback"]
         )
+
+# for coro in coroutines:
+#     worker = coro["worker"]
+#     interval = coro["interval"]
+#     state = coro.get("state", None)
+#     coro_state = state if state is not None else (bot,)
+#     tasks.add_coroutine(worker, interval, coro_state)
+tasks.coroutines = coroutines
 
 def try_to_king_me(channel):
     bot.send_message("ChanServ", "REGISTER {}", channel)
@@ -61,6 +70,7 @@ def handle_message(name, source, response):
         print("::", bot.memories)
 
 if __name__ == "__main__":
+    bot.tasks = tasks
     bot.start(dirname(realpath(__file__)), {
         "pm": handle_pm,
         "mode": handle_mode,
