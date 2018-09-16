@@ -24,7 +24,7 @@ def hmmscore(self, name, source, response):
     score_format = "Hmm score for '{}': {}"
 
     if " " in response:
-        name = response.split(" ", 1)[1]
+        name = response.split(" ", 1)[1].strip()
 
     if name not in self.bot.memories["users"]:
         self.bot.send_message(source, score_format.format(name, score))

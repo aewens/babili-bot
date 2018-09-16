@@ -48,7 +48,7 @@ class Responses:
         if name not in users:
             return False
 
-        response = response.lower()
+        response = response.lower().strip()
         check = {
             "name": name,
             "source": source,

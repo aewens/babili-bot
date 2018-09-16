@@ -12,7 +12,7 @@ def banish(self, name, source, response):
         self.bot.memories["users"][user] = dict()
 
     self.bot.memories["users"][user]["blacklist"] = {
-        "reason": reason,
+        "reason": reason.strip(),
         "when": datetime.now().timestamp()
     }
 
@@ -24,7 +24,7 @@ def banish(self, name, source, response):
 def pardon(self, name, source, response):
     botnick = self.bot.botnick
     author = self.bot.author
-    user = response.split("!pardon ")[1]
+    user = response.split("!pardon ")[1].strip()
 
     if name != author:
         return
