@@ -1,0 +1,3564 @@
+[INFO] [2018-09-20 13:44:16] >> 
+USER BabiliBot BabiliBot BabiliBot BabiliBot
+
+[INFO] [2018-09-20 13:44:16] >> 
+NICK BabiliBot
+
+[DEBUG] [2018-09-20 13:44:16] >> 
+:team.tilde.chat NOTICE Auth :*** Looking up your hostname...
+[DEBUG] [2018-09-20 13:44:16] >> 
+:team.tilde.chat NOTICE Auth :*** Found your hostname (localhost) -- cached
+[DEBUG] [2018-09-20 13:44:17] >> 
+:team.tilde.chat NOTICE Auth :Welcome to tilde.chat!
+:team.tilde.chat 001 BabiliBot :Welcome to the tilde.chat IRC Network BabiliBot!BabiliBot@localhost
+:team.tilde.chat 002 BabiliBot :Your host is team.tilde.chat, running version InspIRCd-2.0
+:team.tilde.chat 003 BabiliBot :This server was created 13:26:16 Jun 18 2018
+:team.tilde.chat 004 BabiliBot team.tilde.chat InspIRCd-2.0 BIRiorsw MRabfhiklmnopqrstvz abfhkloqv
+:team.tilde.chat 005 BabiliBot AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=b,k,fl,MRimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXTBAN=,RUz FNC KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=100 :are supported by this server
+:team.tilde.chat 005 BabiliBot MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=tilde.chat NICKLEN=31 PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STATUSMSG=~&@%+ TOPICLEN=307 VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+:team.tilde.chat 042 BabiliBot 674AAAWDF :your unique ID
+:team.tilde.chat 375 BabiliBot :team.tilde.chat message of the day
+:team.tilde.chat 372 BabiliBot :-    __                        __  _ __    __           __          __ 
+:team.tilde.chat 372 BabiliBot :-   / /____  ____ _____ ___   / /_(_) /___/ /__   _____/ /_  ____ _/ /_
+:team.tilde.chat 372 BabiliBot :-  / __/ _ \/ __ `/ __ `__ \ / __/ / / __  / _ \ / ___/ __ \/ __ `/ __/
+:team.tilde.chat 372 BabiliBot :- / /_/  __/ /_/ / / / / / // /_/ / / /_/ /  __// /__/ / / / /_/ / /_  
+:team.tilde.chat 372 BabiliBot :- \__/\___/\__,_/_/ /_/ /_(_)__/_/_/\__,_/\___(_)___/_/ /_/\__,_/\__/  
+:team.tilde.chat 372 BabiliBot :-                                                                      
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :- welcome to tilde.chat (this node hosted on tilde.team)
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :- check out the appropriate channel for your tilde: 
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :-   - tilde.team => #team
+:team.tilde.chat 372 BabiliBot :-   - tilde.town => #town
+:team.tilde.ch
+[DEBUG] [2018-09-20 13:44:17] >> 
+at 372 BabiliBot :-   - yourtilde  => #your
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :-   the main lobby channel is #meta. check /list for the other channels
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :- msg an oper if you need anything and 
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :-   ~~ be excellent to each other ~~
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :- connecting and chatting here implies agreement with the code of conduct:
+:team.tilde.chat 372 BabiliBot :- https://tilde.team/wiki/?page=code-of-conduct
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 376 BabiliBot :End of message of the day.
+:team.tilde.chat 251 BabiliBot :There are 97 users and 7 invisible on 4 servers
+:team.tilde.chat 252 BabiliBot 2 :operator(s) online
+:team.tilde.chat 254 BabiliBot 51 :channels formed
+:team.tilde.chat 255 BabiliBot :I have 76 clients and 3 servers
+:team.tilde.chat 265 BabiliBot :Current Local Users: 76  Max: 77
+:team.tilde.chat 266 BabiliBot :Current Global Users: 104  Max: 105
+:team.tilde.chat NOTICE BabiliBot :Setting your virtual host: tilde.team
+:team.tilde.chat 396 BabiliBot tilde.team :is now your displayed host
+[DEBUG] [2018-09-20 13:44:17] >> 
+:NickServ!services@services.tilde.chat NOTICE BabiliBot :This nickname is registered and protected.  If it is your
+:NickServ!services@services.tilde.chat NOTICE BabiliBot :nick, type /msg NickServ IDENTIFY password.  Otherwise,
+:NickServ!services@services.tilde.chat NOTICE BabiliBot :please choose a different nick.
+[INFO] [2018-09-20 13:44:17] >> 
+PRIVMSG NickServ :IDENTIFY ************************
+
+[DEBUG] [2018-09-20 13:44:17] >> 
+:NickServ!services@services.tilde.chat NOTICE BabiliBot :Password accepted - you are now recognized.
+:team.tilde.chat 900 BabiliBot BabiliBot!BabiliBot@tilde.team BabiliBot :You are now logged in as BabiliBot
+[DEBUG] [2018-09-20 13:44:17] >> 
+:NickServ!services@services.tilde.chat MODE BabiliBot +r
+[INFO] [2018-09-20 13:44:17] >> 
+MODE BabiliBot +B
+
+[INFO] [2018-09-20 13:44:17] >> 
+JOIN #bots
+
+[DEBUG] [2018-09-20 13:44:17] >> 
+:BabiliBot!BabiliBot@tilde.team MODE BabiliBot +B
+[DEBUG] [2018-09-20 13:44:17] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#bots
+:team.tilde.chat 332 BabiliBot #bots :put your bots here thanks https://tilde.team/wiki/?page=irc-bots
+:team.tilde.chat 333 BabiliBot #bots ben 1534775838
+:team.tilde.chat 353 BabiliBot = #bots :endorphant rain1 aewens ~ben @khuxkm minerbot2 khuxkm|lounge slipyx jan6|teamweb sedbot freeappsw desvox_ TildeBot aewens|otg dustbot BabiliBot brendantcc_lounge dustboto zaphod-dev cirno midlow desvox Clefable 
+:team.tilde.chat 366 BabiliBot #bots :End of /NAMES list.
+[INFO] [2018-09-20 13:44:17] >> 
+JOIN #insane
+
+[DEBUG] [2018-09-20 13:44:17] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#insane
+:team.tilde.chat 332 BabiliBot #insane :"BECAUSE SOMETIMES YOU WANT TO BE INSANE INSTEAD OF CHAOTIC"
+:team.tilde.chat 333 BabiliBot #insane aewens 1534047048
+:team.tilde.chat 353 BabiliBot @ #insane :~aewens aewens|otg BabiliBot 
+:team.tilde.chat 366 BabiliBot #insane :End of /NAMES list.
+[INFO] [2018-09-20 13:44:17] >> 
+JOIN #meta
+
+[DEBUG] [2018-09-20 13:44:17] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#meta
+:team.tilde.chat 332 BabiliBot #meta :general chat for the tildeverse ~~~~ https://tildeverse.org ircnet: https://tilde.chat | discord bridge is down
+:team.tilde.chat 333 BabiliBot #meta ben 1535345589
+:team.tilde.chat 353 BabiliBot = #meta :endorphant billy5 rain1 cdmnky th3str3ak ubergeek space_cadet +aewens ~ben mhj @ChanServ @cmccabe baco mio refragable mspe ~khuxkm dougtoo kirch1 sin dpc kumquat lempamo scifi kilic ~deepend minerbot2 khuxkm|lounge slipyx @virtual jan6|teamweb tildeguest jackomix3 sedbot code21 nincollin sose1 freeappsw sebweb desvox_ gilda mushmouth nearll4 TildeBot GoldenBear Drav aewens|otg sebboh vilmibm arne +tomasino BabiliBot phoenix kirch brendantcc erxeto login 
+:team.tilde.chat 353 BabiliBot = #meta :atte1nmos|mobile brendantcc_lounge Fessus nilaky cirno kadin midlow mushmouth|lounge-user zyeri sose angel billinja tab5 desvox jackomix micaiah sirx Clefable 
+:team.tilde.chat 366 BabiliBot #meta :End of /NAMES list.
+[INFO] [2018-09-20 13:44:17] >> 
+JOIN #team
+
+[DEBUG] [2018-09-20 13:44:17] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#team
+:team.tilde.chat 332 BabiliBot #team :tilde.team specific stuff ~ https://tilde.team ~ https://tildegit.org/team
+:team.tilde.chat 333 BabiliBot #team ben 1536339842
+:team.tilde.chat 353 BabiliBot = #team :billy5 rain1 cdmnky ubergeek aewens ~ben @ChanServ @cmccabe baco refragable @khuxkm dpc lempamo kilic deepend minerbot2 khuxkm|lounge slipyx jan6|teamweb sedbot code21 sose1 freeappsw desvox_ gilda GoldenBear aewens|otg sebboh arne tomasino BabiliBot phoenix kirch erxeto trifex atte1nmos|mobile brendantcc_lounge cirno kadin midlow zyeri angel billinja tab5 desvox jackomix micaiah sirx Clefable 
+:team.tilde.chat 366 BabiliBot #team :End of /NAMES list.
+[INFO] [2018-09-20 13:44:17] >> 
+JOIN #chaos
+
+[DEBUG] [2018-09-20 13:44:18] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#chaos
+:team.tilde.chat 332 BabiliBot #chaos :aewens is the king of chaos, jan6 is nothing but an impostor! also, everyone gets ops
+:team.tilde.chat 333 BabiliBot #chaos khuxkm|lounge!khuxkm@sudoers.tilde.team 1537449471
+:team.tilde.chat 353 BabiliBot = #chaos :~cdmnky ~aewens ~ben|lounge ~kirch1 ~scifi ~deepend ~khuxkm|lounge ~jan6|teamweb ~jackomix3 ~sedbot ~gilda ~TildeBot ~aewens|otg ~arne BabiliBot ~brendantcc_lounge ~desvox 
+:team.tilde.chat 366 BabiliBot #chaos :End of /NAMES list.
+[INFO] [2018-09-20 13:44:18] >> 
+JOIN #tildeverse
+
+[DEBUG] [2018-09-20 13:44:18] >> 
+:ChanServ!services@services.tilde.chat MODE #chaos +qo BabiliBot BabiliBot
+[DEBUG] [2018-09-20 13:44:20] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#tildeverse
+:team.tilde.chat 332 BabiliBot #tildeverse :Tildeverse meeting/discussion place - https://tildeverse.org/
+:team.tilde.chat 333 BabiliBot #tildeverse khuxkm!khuxkm@sudoers.tilde.team 1531871407
+:team.tilde.chat 353 BabiliBot = #tildeverse :ubergeek aewens ben minerbot2 khuxkm|lounge sedbot aewens|otg BabiliBot 
+:team.tilde.chat 366 BabiliBot #tildeverse :End of /NAMES list.
+[DEBUG] [2018-09-20 13:44:24] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #team :https://ttm.sh/2G.png
+[DEBUG] [2018-09-20 13:44:30] >> 
+:ben|lounge!ben@tilde.team JOIN :#meta
+[DEBUG] [2018-09-20 13:44:43] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :Logging has now been enabled for BabiliBot
+[DEBUG] [2018-09-20 13:45:06] >> 
+:ben|lounge!ben@tilde.team PRIVMSG #meta :does BabiliBot put them somewhere in your ~/public_html or something?
+[DEBUG] [2018-09-20 13:45:10] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :wha
+[DEBUG] [2018-09-20 13:45:13] >> 
+:ben|lounge!ben@tilde.team PRIVMSG #meta :or just in a file
+[DEBUG] [2018-09-20 13:45:21] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :why does gcc not find stdio.h in alpine
+[DEBUG] [2018-09-20 13:45:25] >> 
+:ben|lounge!ben@tilde.team PRIVMSG #meta :i guess ii'm just asking what you mean but logging
+[DEBUG] [2018-09-20 13:46:07] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :ben|lounge: No, but I totally could do that.
+[DEBUG] [2018-09-20 13:46:15] >> 
+:ben|lounge!ben@tilde.team PRIVMSG #meta :oh ok 
+[DEBUG] [2018-09-20 13:46:17] >> 
+:ben|lounge!ben@tilde.team PRIVMSG #meta :just wondering
+[DEBUG] [2018-09-20 13:46:20] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :It's in a time rotating .log file.
+[DEBUG] [2018-09-20 13:46:21] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 13:46:21] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 13:46:24] >> 
+:ben|lounge!ben@tilde.team PRIVMSG #meta :oh oki
+[DEBUG] [2018-09-20 13:46:29] >> 
+:ben|lounge!ben@tilde.team QUIT :quit: tilde lounge - https://irc.tilde.team
+[DEBUG] [2018-09-20 13:46:35] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :/home/aewens/proto/babili/logs/<LOGS HERE>
+[DEBUG] [2018-09-20 13:46:54] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :proto?
+[DEBUG] [2018-09-20 13:47:45] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :ningún archive seleccionado
+[DEBUG] [2018-09-20 13:47:47] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :my name is proto
+[DEBUG] [2018-09-20 13:47:50] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :hmmst
+[DEBUG] [2018-09-20 13:47:53] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :i'm not seeing that on mine
+[DEBUG] [2018-09-20 13:48:20] >> 
+:ben|lounge!ben@tilde.team JOIN :#meta
+[DEBUG] [2018-09-20 13:48:21] >> 
+:ben|lounge!ben@tilde.team JOIN :#team
+[DEBUG] [2018-09-20 13:48:22] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 13:48:22] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 13:48:35] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :On all my systems, I put my projects into a folder called "proto"
+[DEBUG] [2018-09-20 13:48:39] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :arne: what theme is that
+[DEBUG] [2018-09-20 13:48:52] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :looks like solarized-monospace
+[DEBUG] [2018-09-20 13:49:05] >> 
+:ben|lounge!ben@tilde.team PRIVMSG #meta :where did you get proto from
+[DEBUG] [2018-09-20 13:49:13] >> 
+:ben|lounge!ben@tilde.team PRIVMSG #meta :i put all of mine in ~/workspace
+[DEBUG] [2018-09-20 13:49:20] >> 
+:ben|lounge!ben@tilde.team PRIVMSG #meta :so same kind of thing i guess
+[DEBUG] [2018-09-20 13:49:30] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :Well, I was in middle school and thought "what would be a cool name for this folder?"
+[DEBUG] [2018-09-20 13:49:36] >> 
+:ben|lounge!ben@tilde.team PRIVMSG #meta :omf
+[DEBUG] [2018-09-20 13:49:40] >> 
+:ben|lounge!ben@tilde.team PRIVMSG #meta :ok that's fair
+[DEBUG] [2018-09-20 13:49:46] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :And prototype was a "cool" word, but that was too long to type, so proto.
+[DEBUG] [2018-09-20 13:49:48] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #team :yes
+[DEBUG] [2018-09-20 13:50:23] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 13:50:23] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 13:50:24] >> 
+:ben|lounge!ben@tilde.team PRIVMSG #meta :i'm guessing something like ~/code or ~/src or ~/workspace are the most common
+[DEBUG] [2018-09-20 13:50:35] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :proto
+[DEBUG] [2018-09-20 13:50:54] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :Sure, but I put my stuff into proto
+[DEBUG] [2018-09-20 13:51:02] >> 
+:ben|lounge!ben@tilde.team PRIVMSG #meta :good to know!
+[DEBUG] [2018-09-20 13:51:06] >> 
+:kirch1!kirch@127.0.0.1 PRIVMSG #meta :my last job put everything in ~/Documents/Workspace .... but I usually use ~/projects
+[DEBUG] [2018-09-20 13:51:09] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :I do /d/projects
+[DEBUG] [2018-09-20 13:51:11] >> 
+:kumquat!kumquat@37.173.129.22 PRIVMSG #meta :proto makes me think of "prout" in French
+[DEBUG] [2018-09-20 13:51:12] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :I put some stuff in archetype, other in self, other in wa
+[DEBUG] [2018-09-20 13:51:15] >> 
+:kumquat!kumquat@37.173.129.22 PRIVMSG #meta :which means fart
+[DEBUG] [2018-09-20 13:51:19] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :and in code
+[DEBUG] [2018-09-20 13:51:22] >> 
+:kirch1!kirch@127.0.0.1 PRIVMSG #meta :sometimes ~/projects is symlinked to somewhere else tho
+[DEBUG] [2018-09-20 13:51:26] >> 
+:ben|lounge!ben@tilde.team PRIVMSG #meta :mspe what's mounted at /d/
+[DEBUG] [2018-09-20 13:51:33] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :God damnit kumquat
+[DEBUG] [2018-09-20 13:51:35] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :a folder I guess
+[DEBUG] [2018-09-20 13:51:45] >> 
+:kumquat!kumquat@37.173.129.22 PRIVMSG #meta :you're welcome aewens :D
+[DEBUG] [2018-09-20 13:51:51] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :my data partition (I have no system partition)
+[DEBUG] [2018-09-20 13:52:00] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :oo
+[DEBUG] [2018-09-20 13:52:07] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :TIL rename exists
+[DEBUG] [2018-09-20 13:52:13] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :mine are just one partition /
+[DEBUG] [2018-09-20 13:52:24] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 13:52:24] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 13:52:24] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :makes my life easier changing the extensions of dozens of files at once
+[DEBUG] [2018-09-20 13:52:29] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :never bothered to put / and /home in separate places
+[DEBUG] [2018-09-20 13:52:33] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :cdmnky: for sure
+[DEBUG] [2018-09-20 13:52:42] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :or you can just script mv
+[DEBUG] [2018-09-20 13:52:44] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :I used a partition for home and one for root
+[DEBUG] [2018-09-20 13:53:08] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :my data partition hosts data, but also a standalone grub with a menu and several squashfs files from which I choose one, load it in ram and mount it on /
+[DEBUG] [2018-09-20 13:53:23] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :so I only have 1 partition
+[DEBUG] [2018-09-20 13:53:41] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :owo ok
+[DEBUG] [2018-09-20 13:53:44] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :good deal
+[DEBUG] [2018-09-20 13:53:51] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :how much ram do you need for that
+[DEBUG] [2018-09-20 13:54:25] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 13:54:25] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 13:55:45] >> 
+:kumquat-!kumquat@37.173.53.103 JOIN :#meta
+[DEBUG] [2018-09-20 13:56:15] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :whoa two kumquats
+[DEBUG] [2018-09-20 13:56:17] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :ben: I have / and /home on separate drives (SSD+HDD), for speed and capacity reasons.
+[DEBUG] [2018-09-20 13:56:26] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 13:56:26] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 13:56:27] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :ah i only have ssd
+[DEBUG] [2018-09-20 13:56:39] >> 
+:kumquat-!kumquat@37.173.53.103 PRIVMSG #meta :we're taking over
+[DEBUG] [2018-09-20 13:56:39] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :i wish I had an ssd
+[DEBUG] [2018-09-20 13:56:39] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i'm not much of a data hoarder anyways
+[DEBUG] [2018-09-20 13:56:52] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :gotta get that 960evo
+[DEBUG] [2018-09-20 13:56:56] >> 
+:kumquat-!kumquat@37.173.53.103 PRIVMSG #meta :not really, I just rebooted my internet because it's being shitty at downloading torrents
+[DEBUG] [2018-09-20 13:56:58] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :the only good thing i liked about my old dead netbook was the ssd
+[DEBUG] [2018-09-20 13:57:09] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :I'm going to be a data hoarder soon, I'm looking to get a Synology NAS server during the holidays.
+[DEBUG] [2018-09-20 13:57:15] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i think i only have one hdd
+[DEBUG] [2018-09-20 13:57:17] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :right now I have opened: gnome, deadbeef, firefox, thunderbird, hexchat, terminals, virtualbox exporting ova, and the whole read-only squashfs in ram
+[DEBUG] [2018-09-20 13:57:19] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i threw a bunch of games on there
+[DEBUG] [2018-09-20 13:57:23] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :https://ttm.sh/2K.png
+[DEBUG] [2018-09-20 13:57:54] >> 
+:kumquat-!kumquat@37.173.53.103 PRIVMSG #meta :where's the photo of your 50 external hard drives mspe?
+[DEBUG] [2018-09-20 13:58:13] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :I think I'm more impressed that you still have about half your RAM available than that it's all in RAM.
+[DEBUG] [2018-09-20 13:58:15] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :my desktop has two SSDs and that HDD
+[DEBUG] [2018-09-20 13:58:24] >> 
+:kumquat-!kumquat@37.173.53.103 PRIVMSG #meta :he's a one man server, mspe is
+[DEBUG] [2018-09-20 13:58:27] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 13:58:27] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 13:58:31] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :one man server lol
+[DEBUG] [2018-09-20 13:58:40] >> 
+:kumquat!kumquat@37.173.129.22 QUIT :Ping timeout: 121 seconds
+[DEBUG] [2018-09-20 13:58:57] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :ope there goes your other one
+[DEBUG] [2018-09-20 13:59:02] >> 
+:kumquat-!kumquat@37.173.53.103 PRIVMSG #meta :noooooo
+[DEBUG] [2018-09-20 13:59:08] >> 
+:kumquat-!kumquat@37.173.53.103 PRIVMSG #meta :I had so much to teach her
+[DEBUG] [2018-09-20 13:59:11] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :now you can recover your nick though
+[DEBUG] [2018-09-20 13:59:40] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :this looks interesting https://www.networkworld.com/article/3305070/internet/icann-sets-plan-to-reinforce-internet-dns-security.html
+[DEBUG] [2018-09-20 13:59:41] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :ICANN sets plan to reinforce internet DNS security | Network World https://bhh.sh/164
+[DEBUG] [2018-09-20 13:59:41] >> 
+:kumquat-!kumquat@37.173.53.103 PRIVMSG #meta :perfect, I need to reboot my internet again
+[DEBUG] [2018-09-20 13:59:56] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :this is why you need a shell account :P
+[DEBUG] [2018-09-20 14:00:03] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :i can't believe that ICANN hasn't changed out their keypairs until now
+[DEBUG] [2018-09-20 14:00:27] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :aewens: only downside is that 8 GB of RAM is too tight
+[DEBUG] [2018-09-20 14:00:28] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:00:28] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:00:46] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :You mean for running anything else?
+[DEBUG] [2018-09-20 14:01:02] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :so with ≤ 8 GB I do storage read-only mount and write overlay only in RAM
+[DEBUG] [2018-09-20 14:01:04] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :Because I think all my machines run on *only* 8GB
+[DEBUG] [2018-09-20 14:01:11] >> 
+:kumquat!kumquat@37.168.134.224 JOIN :#meta
+[DEBUG] [2018-09-20 14:01:15] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :my personal laptop is the smallest with 8gb
+[DEBUG] [2018-09-20 14:01:19] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :work laptop has 16
+[DEBUG] [2018-09-20 14:01:22] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :desktop has 32
+[DEBUG] [2018-09-20 14:01:23] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :no I mean using machines with total of physical 8 gigs
+[DEBUG] [2018-09-20 14:01:28] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :tild.team machine has 64
+[DEBUG] [2018-09-20 14:01:50] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :https://tild3.club
+[DEBUG] [2018-09-20 14:01:51] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :tilde.team 
+[DEBUG] [2018-09-20 14:01:58] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :goddammit
+[DEBUG] [2018-09-20 14:02:01] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :it's just that if I don't load everything in RAM
+[DEBUG] [2018-09-20 14:02:12] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :guess I just have a shitty internet connection tonight
+[DEBUG] [2018-09-20 14:02:18] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :it's less convenient cause I can't just unplug my ssd and let the machine do computing while I'm away
+[DEBUG] [2018-09-20 14:02:29] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:02:29] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:02:51] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :which defeats the whole point of having my ssd booting my debian anywhere on any computer with any numbre of instances of the same system image in ram
+[DEBUG] [2018-09-20 14:02:59] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :how does it handle file writes
+[DEBUG] [2018-09-20 14:03:04] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :since it's mounted in ram
+[DEBUG] [2018-09-20 14:03:15] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :in the case where the ssd is disconnected
+[DEBUG] [2018-09-20 14:03:33] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :I do mount points of xdg directories on a subfolder of my partition data
+[DEBUG] [2018-09-20 14:03:51] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :everything else is volatile (logs, packages, /etc, etc)
+[DEBUG] [2018-09-20 14:04:01] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :if I want to upgrade or configure my system
+[DEBUG] [2018-09-20 14:04:05] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :/etc is volatile?
+[DEBUG] [2018-09-20 14:04:10] >> 
+:kumquat-!kumquat@37.173.53.103 QUIT :Ping timeout: 121 seconds
+[DEBUG] [2018-09-20 14:04:12] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :so much configuration in there
+[DEBUG] [2018-09-20 14:04:12] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :I build a new suashfs file from the previous one
+[DEBUG] [2018-09-20 14:04:16] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :chrooting into it
+[DEBUG] [2018-09-20 14:04:21] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :doing my conf and installs
+[DEBUG] [2018-09-20 14:04:27] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :and adding it to my grub menu
+[DEBUG] [2018-09-20 14:04:28] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :then reboot
+[DEBUG] [2018-09-20 14:04:30] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:04:30] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:04:32] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :oof
+[DEBUG] [2018-09-20 14:04:35] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :that sounds overly complex
+[DEBUG] [2018-09-20 14:04:40] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :for any of my use cases anyways
+[DEBUG] [2018-09-20 14:04:43] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :that way I always have native ghosts/backups
+[DEBUG] [2018-09-20 14:04:58] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :it's in the end squper convenient cause
+[DEBUG] [2018-09-20 14:05:02] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :if you do any mistake
+[DEBUG] [2018-09-20 14:05:10] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :roll back
+[DEBUG] [2018-09-20 14:05:13] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i suppose that's quite nice
+[DEBUG] [2018-09-20 14:05:15] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :just reboot and you're at the state of your last read-only functional image
+[DEBUG] [2018-09-20 14:05:24] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #chaos :which is better
+[DEBUG] [2018-09-20 14:05:26] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :instant rollback, yes
+[DEBUG] [2018-09-20 14:05:27] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #chaos :typing things
+[DEBUG] [2018-09-20 14:05:30] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #chaos :line by line
+[DEBUG] [2018-09-20 14:05:53] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :I have aliases to do the chrooting 
+[DEBUG] [2018-09-20 14:05:53] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :that's pretty dope
+[DEBUG] [2018-09-20 14:06:09] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i need to figure out the apt packages i install by default
+[DEBUG] [2018-09-20 14:06:13] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :wew
+[DEBUG] [2018-09-20 14:06:15] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #chaos :or should I just type a really long line of text when saying something that would normally take several lines that could somehow be misconstrued to be spammy stuff, that would most likely only be good in #chaos
+[DEBUG] [2018-09-20 14:06:16] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :and add them to my dotfiles
+[DEBUG] [2018-09-20 14:06:31] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:06:31] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:06:33] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i have pretty much everything in my dotfiles
+[DEBUG] [2018-09-20 14:06:38] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :I only type unsquashfs, mr, cr, do the stuff, exit, ur, and mksquashfs
+[DEBUG] [2018-09-20 14:06:44] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :and boom, new image
+[DEBUG] [2018-09-20 14:06:59] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :that's dope
+[DEBUG] [2018-09-20 14:07:26] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :mspe: Do you have anything documenting how you have your setup done? If so, I'd love to read over it.
+[DEBUG] [2018-09-20 14:07:36] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :I'm working on building stable and unstable systems from scratch instead of incremental chroots, though
+[DEBUG] [2018-09-20 14:07:47] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :ACTION chants blog post! blog post! blog post!
+[DEBUG] [2018-09-20 14:07:49] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :aewens: I'm working on it
+[DEBUG] [2018-09-20 14:07:54] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #chaos :Really long line of text
+[DEBUG] [2018-09-20 14:08:03] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #chaos :Unless if you're actively conversing with people
+[DEBUG] [2018-09-20 14:08:10] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :do you keep parallel images of stable/testing/unstable ?
+[DEBUG] [2018-09-20 14:08:14] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :I already have functional scripting for building unstable from scratch
+[DEBUG] [2018-09-20 14:08:17] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :oh nice
+[DEBUG] [2018-09-20 14:08:31] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :mspe: If you get it done, please email me the link - aewens@tilde.team
+[DEBUG] [2018-09-20 14:08:32] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:08:32] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:08:39] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :yeah that's my goal, having different building profiles
+[DEBUG] [2018-09-20 14:08:41] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :and/or post to tilde.news
+[DEBUG] [2018-09-20 14:09:27] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta : ____  _   _  ____    __  __  _____  ____  ____    _  _  _____  __  __    _  _  _  _  _____  _    _ /\
+[DEBUG] [2018-09-20 14:09:27] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :(_  _)( )_( )( ___)  (  \/  )(  _  )(  _ \( ___)  ( \/ )(  _  )(  )(  )  ( )/ )( \( )(  _  )( \/\/ ))(
+[DEBUG] [2018-09-20 14:09:27] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :  )(   ) _ (  )__)    )    (  )(_)(  )   / )__)    \  /  )(_)(  )(__)(    )  (  )  (  )(_)(  )    ( \/
+[DEBUG] [2018-09-20 14:09:27] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta : (__) (_) (_)(____)  (_/\/\_)(_____)(_)\_)(____)   (__) (_____)(______)  (_)\_)(_)\_)(_____)(__/\__)()
+[DEBUG] [2018-09-20 14:09:34] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :woops, wrong channel lol
+[DEBUG] [2018-09-20 14:09:38] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :lmao
+[DEBUG] [2018-09-20 14:09:44] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :that looks like something bound for #chaos
+[DEBUG] [2018-09-20 14:09:56] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #chaos : ____  _   _  ____    __  __  _____  ____  ____    _  _  _____  __  __    _  _  _  _  _____  _    _ /\
+[DEBUG] [2018-09-20 14:09:56] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #chaos :(_  _)( )_( )( ___)  (  \/  )(  _  )(  _ \( ___)  ( \/ )(  _  )(  )(  )  ( )/ )( \( )(  _  )( \/\/ ))(
+[DEBUG] [2018-09-20 14:09:56] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #chaos :  )(   ) _ (  )__)    )    (  )(_)(  )   / )__)    \  /  )(_)(  )(__)(    )  (  )  (  )(_)(  )    ( \/
+[DEBUG] [2018-09-20 14:09:56] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #chaos : (__) (_) (_)(____)  (_/\/\_)(_____)(_)\_)(____)   (__) (_____)(______)  (_)\_)(_)\_)(_____)(__/\__)()
+[DEBUG] [2018-09-20 14:09:58] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :oh, I never took a look at tilde.news
+[DEBUG] [2018-09-20 14:10:12] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :i knew this would happen at least once in my life lol
+[DEBUG] [2018-09-20 14:10:12] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :it's an instance of lobste.rs for tildes
+[DEBUG] [2018-09-20 14:10:18] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :sry 'bout that
+[DEBUG] [2018-09-20 14:10:19] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :https://tilde.news
+[DEBUG] [2018-09-20 14:10:20] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :tilde news 
+[DEBUG] [2018-09-20 14:10:22] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :no worries
+[DEBUG] [2018-09-20 14:10:33] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:10:33] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:10:45] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :it doesn't get many comments
+[DEBUG] [2018-09-20 14:10:51] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :but it's there!
+[DEBUG] [2018-09-20 14:11:33] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :why not a lobste.rs for command line? or is that just bbj :hmm:
+[DEBUG] [2018-09-20 14:11:56] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :recently I was distracted by qemu
+[DEBUG] [2018-09-20 14:12:17] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :you've been recently distracted by many things
+[DEBUG] [2018-09-20 14:12:32] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :someone made a gopher client for lobste.rs
+[DEBUG] [2018-09-20 14:12:34] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:12:34] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:12:40] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :lobste.rs is link aggregation
+[DEBUG] [2018-09-20 14:12:41] >> 
+:mspe!mspe@37.168.3.162 PRIVMSG #meta :I could use qemu to then wrap my built from scratch systems into vmdk files into ova files and deploy them in the vmware virtual infrastructure at work :P
+[DEBUG] [2018-09-20 14:12:43] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :bbj is forum
+[DEBUG] [2018-09-20 14:13:09] >> 
+:Fessus!Fessus@45.76.231.53 PRIVMSG #meta :bbj is in serious need of some way to separate posts by topic
+[DEBUG] [2018-09-20 14:13:24] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :yeah
+[DEBUG] [2018-09-20 14:13:33] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :i kinda miss old-school forums tbh
+[DEBUG] [2018-09-20 14:13:37] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :they were nice and cozy
+[DEBUG] [2018-09-20 14:13:56] >> 
+:Fessus!Fessus@45.76.231.53 PRIVMSG #meta :cursedboard allows for individual topic boards, I prefer it to bbj for terminal posting
+[DEBUG] [2018-09-20 14:14:04] >> 
+:Fessus!Fessus@45.76.231.53 PRIVMSG #meta :cdmnky, yeah
+[DEBUG] [2018-09-20 14:14:07] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :found the gophsters (gopher makes names pretty strange) https://github.com/julienXX/gophsters
+[DEBUG] [2018-09-20 14:14:09] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :GitHub - julienXX/gophsters: Generate a gophermap from lobste.rs recent stories https://bhh.sh/j4
+[DEBUG] [2018-09-20 14:14:35] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:14:35] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:14:43] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :written entirely in rust though
+[DEBUG] [2018-09-20 14:15:07] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :Fessus: make an issue on the gh page :P
+[DEBUG] [2018-09-20 14:15:16] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :https://github.com/desvox/bbj/issues
+[DEBUG] [2018-09-20 14:15:17] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :Issues · desvox/bbj · GitHub https://bhh.sh/165
+[DEBUG] [2018-09-20 14:15:20] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :paging deepend 
+[DEBUG] [2018-09-20 14:15:22] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :gah
+[DEBUG] [2018-09-20 14:15:25] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :desvox: 
+[DEBUG] [2018-09-20 14:15:26] >> 
+:Fessus!Fessus@45.76.231.53 PRIVMSG #meta :I'm too lazy
+[DEBUG] [2018-09-20 14:15:42] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :lmao
+[DEBUG] [2018-09-20 14:16:31] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :Tired: takes computer science to learn about computers; Wired: takes computer science to understand r/programmerhumor jokes
+[DEBUG] [2018-09-20 14:16:36] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:16:36] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:18:00] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :lmao
+[DEBUG] [2018-09-20 14:18:37] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:18:37] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:18:44] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :https://www.reddit.com/r/ProgrammerHumor/comments/9hfnbl/top_programming_books_sold/
+[DEBUG] [2018-09-20 14:18:46] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :Top Programming Books Sold : ProgrammerHumor https://bhh.sh/166
+[DEBUG] [2018-09-20 14:19:35] >> 
+:Fessus!Fessus@45.76.231.53 PRIVMSG #meta :bit@whisper.onthewifi.com is probably a near perfect ssh based text board. It's kind of a shame no one else uses the software. It even has an image viewer 
+[DEBUG] [2018-09-20 14:20:05] >> 
+:Fessus!Fessus@45.76.231.53 PRIVMSG #meta :Ideally bbj would implement some of the features it uses
+[DEBUG] [2018-09-20 14:20:11] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :desvox: ^^
+[DEBUG] [2018-09-20 14:20:29] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :omg this actually exists https://www.reddit.com/r/orlybooks/
+[DEBUG] [2018-09-20 14:20:31] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :O RLY Books https://bhh.sh/167
+[DEBUG] [2018-09-20 14:20:38] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:20:38] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:20:59] >> 
+:Fessus!Fessus@45.76.231.53 PRIVMSG #meta :https://i.imgur.com/INBvStO.png
+[DEBUG] [2018-09-20 14:21:05] >> 
+:Fessus!Fessus@45.76.231.53 PRIVMSG #meta :"with his therapist"
+[DEBUG] [2018-09-20 14:21:26] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :LOL
+[DEBUG] [2018-09-20 14:21:32] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :!summon desvox 
+[DEBUG] [2018-09-20 14:21:35] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :Crap
+[DEBUG] [2018-09-20 14:21:41] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :is it actually possible to webdev with assembly?
+[DEBUG] [2018-09-20 14:21:52] >> 
+:Fessus!Fessus@45.76.231.53 PRIVMSG #meta :technically
+[DEBUG] [2018-09-20 14:21:54] >> 
+:Fessus!Fessus@45.76.231.53 PRIVMSG #meta :yes
+[DEBUG] [2018-09-20 14:22:03] >> 
+:Fessus!Fessus@45.76.231.53 PRIVMSG #meta :also possible with punch cards
+[DEBUG] [2018-09-20 14:22:10] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :!summon desvox "Fessus: bit@whisper.onthewifi.com is probably a near perfect ssh based text board. It's kind of a shame no one else uses the software. It even has an image viewer. Ideally bbj would implement some of the features it uses"
+[INFO] [2018-09-20 14:22:10] >> 
+PRIVMSG #meta :aewens: You have summoned desvox
+
+[DEBUG] [2018-09-20 14:22:14] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :There we go
+[DEBUG] [2018-09-20 14:22:23] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :owo
+[DEBUG] [2018-09-20 14:22:27] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :Superba!
+[DEBUG] [2018-09-20 14:22:32] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i wonder if he checks that mail address
+[DEBUG] [2018-09-20 14:23:22] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i guess we'll find out
+[DEBUG] [2018-09-20 14:23:26] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :cdmnky: Tell you what, I can have it say "Superba!" if you summon someone, sound good? xD
+[DEBUG] [2018-09-20 14:24:01] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :that sounds like a lot of unnecessary work lol
+[DEBUG] [2018-09-20 14:24:11] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:24:11] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:24:24] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :It's 2 lines of code
+[DEBUG] [2018-09-20 14:24:26] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :lmao
+[DEBUG] [2018-09-20 14:26:12] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:26:12] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:28:13] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:28:13] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:30:14] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:30:14] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:32:15] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:32:15] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:32:32] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :des vox
+[DEBUG] [2018-09-20 14:32:38] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :d es pa cito
+[DEBUG] [2018-09-20 14:32:43] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :2
+[DEBUG] [2018-09-20 14:34:02] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :Illuminati confirmed
+[DEBUG] [2018-09-20 14:34:16] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:34:16] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:34:43] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :oh
+[DEBUG] [2018-09-20 14:34:55] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #insane :!puppet #meta|Superba!
+[INFO] [2018-09-20 14:34:55] >> 
+PRIVMSG #meta :superba!
+
+[DEBUG] [2018-09-20 14:36:56] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:36:56] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:38:57] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:38:57] >> 
+PONG :team.tilde.chat
+
+[INFO] [2018-09-20 14:39:03] >> 
+USER BabiliBot BabiliBot BabiliBot BabiliBot
+
+[INFO] [2018-09-20 14:39:03] >> 
+NICK BabiliBot
+
+[DEBUG] [2018-09-20 14:39:03] >> 
+:team.tilde.chat NOTICE Auth :*** Looking up your hostname...
+[DEBUG] [2018-09-20 14:39:03] >> 
+:team.tilde.chat NOTICE Auth :*** Found your hostname (localhost)
+[DEBUG] [2018-09-20 14:39:04] >> 
+:team.tilde.chat NOTICE Auth :Welcome to tilde.chat!
+:team.tilde.chat 001 BabiliBot :Welcome to the tilde.chat IRC Network BabiliBot!BabiliBot@localhost
+:team.tilde.chat 002 BabiliBot :Your host is team.tilde.chat, running version InspIRCd-2.0
+:team.tilde.chat 003 BabiliBot :This server was created 13:26:16 Jun 18 2018
+:team.tilde.chat 004 BabiliBot team.tilde.chat InspIRCd-2.0 BIRiorsw MRabfhiklmnopqrstvz abfhkloqv
+:team.tilde.chat 005 BabiliBot AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=b,k,fl,MRimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXTBAN=,RUz FNC KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=100 :are supported by this server
+:team.tilde.chat 005 BabiliBot MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=tilde.chat NICKLEN=31 PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STATUSMSG=~&@%+ TOPICLEN=307 VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+:team.tilde.chat 042 BabiliBot 674AAAWDK :your unique ID
+:team.tilde.chat 375 BabiliBot :team.tilde.chat message of the day
+:team.tilde.chat 372 BabiliBot :-    __                        __  _ __    __           __          __ 
+:team.tilde.chat 372 BabiliBot :-   / /____  ____ _____ ___   / /_(_) /___/ /__   _____/ /_  ____ _/ /_
+:team.tilde.chat 372 BabiliBot :-  / __/ _ \/ __ `/ __ `__ \ / __/ / / __  / _ \ / ___/ __ \/ __ `/ __/
+:team.tilde.chat 372 BabiliBot :- / /_/  __/ /_/ / / / / / // /_/ / / /_/ /  __// /__/ / / / /_/ / /_  
+:team.tilde.chat 372 BabiliBot :- \__/\___/\__,_/_/ /_/ /_(_)__/_/_/\__,_/\___(_)___/_/ /_/\__,_/\__/  
+:team.tilde.chat 372 BabiliBot :-                                                                      
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :- welcome to tilde.chat (this node hosted on tilde.team)
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :- check out the appropriate channel for your tilde: 
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :-   - tilde.team => #team
+:team.tilde.chat 372 BabiliBot :-   - tilde.town => #town
+:team.tilde.ch
+[DEBUG] [2018-09-20 14:39:04] >> 
+at 372 BabiliBot :-   - yourtilde  => #your
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :-   the main lobby channel is #meta. check /list for the other channels
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :- msg an oper if you need anything and 
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :-   ~~ be excellent to each other ~~
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :- connecting and chatting here implies agreement with the code of conduct:
+:team.tilde.chat 372 BabiliBot :- https://tilde.team/wiki/?page=code-of-conduct
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 376 BabiliBot :End of message of the day.
+:team.tilde.chat 251 BabiliBot :There are 97 users and 7 invisible on 4 servers
+:team.tilde.chat 252 BabiliBot 2 :operator(s) online
+:team.tilde.chat 254 BabiliBot 51 :channels formed
+:team.tilde.chat 255 BabiliBot :I have 76 clients and 3 servers
+:team.tilde.chat 265 BabiliBot :Current Local Users: 76  Max: 77
+:team.tilde.chat 266 BabiliBot :Current Global Users: 104  Max: 105
+:team.tilde.chat NOTICE BabiliBot :Setting your virtual host: tilde.team
+:team.tilde.chat 396 BabiliBot tilde.team :is now your displayed host
+:NickServ!services@services.tilde.chat NOTICE BabiliBot :This nickname is registered and protected.  If it is your
+:NickServ!services@services.tilde.chat NOTICE BabiliBot :nick, type /msg NickServ IDENTIFY password.  Otherwise,
+:NickServ!services@services.tilde.chat NOTICE BabiliBot :please choose a different nick.
+[INFO] [2018-09-20 14:39:04] >> 
+PRIVMSG NickServ :IDENTIFY ************************
+
+[DEBUG] [2018-09-20 14:39:04] >> 
+:NickServ!services@services.tilde.chat NOTICE BabiliBot :Password accepted - you are now recognized.
+:team.tilde.chat 900 BabiliBot BabiliBot!BabiliBot@tilde.team BabiliBot :You are now logged in as BabiliBot
+[DEBUG] [2018-09-20 14:39:04] >> 
+:NickServ!services@services.tilde.chat MODE BabiliBot +r
+[INFO] [2018-09-20 14:39:04] >> 
+MODE BabiliBot +B
+
+[INFO] [2018-09-20 14:39:04] >> 
+JOIN #bots
+
+[DEBUG] [2018-09-20 14:39:04] >> 
+:BabiliBot!BabiliBot@tilde.team MODE BabiliBot +B
+[DEBUG] [2018-09-20 14:39:04] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#bots
+:team.tilde.chat 332 BabiliBot #bots :put your bots here thanks https://tilde.team/wiki/?page=irc-bots
+:team.tilde.chat 333 BabiliBot #bots ben 1534775838
+:team.tilde.chat 353 BabiliBot = #bots :endorphant rain1 aewens ~ben @khuxkm minerbot2 khuxkm|lounge slipyx jan6|teamweb sedbot freeappsw desvox_ TildeBot aewens|otg dustbot BabiliBot brendantcc_lounge dustboto zaphod-dev cirno midlow desvox Clefable 
+:team.tilde.chat 366 BabiliBot #bots :End of /NAMES list.
+[INFO] [2018-09-20 14:39:04] >> 
+JOIN #insane
+
+[DEBUG] [2018-09-20 14:39:04] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#insane
+:team.tilde.chat 332 BabiliBot #insane :"BECAUSE SOMETIMES YOU WANT TO BE INSANE INSTEAD OF CHAOTIC"
+:team.tilde.chat 333 BabiliBot #insane aewens 1534047048
+:team.tilde.chat 353 BabiliBot @ #insane :~aewens aewens|otg BabiliBot 
+:team.tilde.chat 366 BabiliBot #insane :End of /NAMES list.
+[INFO] [2018-09-20 14:39:04] >> 
+JOIN #meta
+
+[DEBUG] [2018-09-20 14:39:04] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#meta
+:team.tilde.chat 332 BabiliBot #meta :general chat for the tildeverse ~~~~ https://tildeverse.org ircnet: https://tilde.chat | discord bridge is down
+:team.tilde.chat 333 BabiliBot #meta ben 1535345589
+:team.tilde.chat 353 BabiliBot = #meta :endorphant billy5 rain1 cdmnky th3str3ak ubergeek space_cadet +aewens ben|lounge ~ben mhj @ChanServ @cmccabe baco mio refragable mspe ~khuxkm dougtoo kirch1 sin dpc kumquat lempamo scifi kilic ~deepend minerbot2 khuxkm|lounge slipyx @virtual jan6|teamweb tildeguest jackomix3 sedbot code21 nincollin sose1 freeappsw sebweb desvox_ gilda mushmouth nearll4 TildeBot GoldenBear Drav aewens|otg sebboh vilmibm arne +tomasino BabiliBot phoenix kirch brendantcc erxeto login 
+:team.tilde.chat 353 BabiliBot = #meta :atte1nmos|mobile brendantcc_lounge Fessus nilaky cirno kadin midlow mushmouth|lounge-user zyeri sose angel billinja tab5 desvox jackomix micaiah sirx Clefable 
+:team.tilde.chat 366 BabiliBot #meta :End of /NAMES list.
+[INFO] [2018-09-20 14:39:04] >> 
+JOIN #team
+
+[DEBUG] [2018-09-20 14:39:04] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#team
+:team.tilde.chat 332 BabiliBot #team :tilde.team specific stuff ~ https://tilde.team ~ https://tildegit.org/team
+:team.tilde.chat 333 BabiliBot #team ben 1536339842
+:team.tilde.chat 353 BabiliBot = #team :billy5 rain1 cdmnky ubergeek aewens ben|lounge ~ben @ChanServ @cmccabe baco refragable @khuxkm dpc lempamo kilic deepend minerbot2 khuxkm|lounge slipyx jan6|teamweb sedbot code21 sose1 freeappsw desvox_ gilda GoldenBear aewens|otg sebboh arne tomasino BabiliBot phoenix kirch erxeto trifex atte1nmos|mobile brendantcc_lounge cirno kadin midlow zyeri angel billinja tab5 desvox jackomix micaiah sirx Clefable 
+:team.tilde.chat 366 BabiliBot #team :End of /NAMES list.
+[INFO] [2018-09-20 14:39:04] >> 
+JOIN #chaos
+
+[DEBUG] [2018-09-20 14:39:05] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#chaos
+:team.tilde.chat 332 BabiliBot #chaos :aewens is the king of chaos, jan6 is nothing but an impostor! also, everyone gets ops
+:team.tilde.chat 333 BabiliBot #chaos khuxkm|lounge!khuxkm@sudoers.tilde.team 1537449471
+:team.tilde.chat 353 BabiliBot = #chaos :~cdmnky ~aewens ~kirch1 ~scifi ~deepend ~khuxkm|lounge ~jan6|teamweb ~jackomix3 ~sedbot ~gilda ~TildeBot ~aewens|otg ~arne BabiliBot ~brendantcc_lounge ~desvox 
+:team.tilde.chat 366 BabiliBot #chaos :End of /NAMES list.
+[INFO] [2018-09-20 14:39:05] >> 
+JOIN #tildeverse
+
+[DEBUG] [2018-09-20 14:39:05] >> 
+:ChanServ!services@services.tilde.chat MODE #chaos +qo BabiliBot BabiliBot
+[DEBUG] [2018-09-20 14:39:07] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#tildeverse
+:team.tilde.chat 332 BabiliBot #tildeverse :Tildeverse meeting/discussion place - https://tildeverse.org/
+:team.tilde.chat 333 BabiliBot #tildeverse khuxkm!khuxkm@sudoers.tilde.team 1531871407
+:team.tilde.chat 353 BabiliBot = #tildeverse :ubergeek aewens ben minerbot2 khuxkm|lounge sedbot aewens|otg BabiliBot 
+:team.tilde.chat 366 BabiliBot #tildeverse :End of /NAMES list.
+[DEBUG] [2018-09-20 14:39:12] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #insane :!puppet #meta|Superba!
+[INFO] [2018-09-20 14:39:12] >> 
+PRIVMSG #meta :Superba!
+
+[DEBUG] [2018-09-20 14:39:26] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :!hmmscore
+[INFO] [2018-09-20 14:39:26] >> 
+PRIVMSG #bots :Hmm score for 'aewens': 207
+
+[DEBUG] [2018-09-20 14:39:28] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :Hmm
+[DEBUG] [2018-09-20 14:39:30] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :!hmmscore
+[INFO] [2018-09-20 14:39:30] >> 
+PRIVMSG #bots :Hmm score for 'aewens': 207
+
+[DEBUG] [2018-09-20 14:39:33] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :Crap
+[DEBUG] [2018-09-20 14:39:43] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :hmm
+[DEBUG] [2018-09-20 14:39:45] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :!hmmscore
+[INFO] [2018-09-20 14:39:45] >> 
+PRIVMSG #bots :Hmm score for 'aewens': 207
+
+[DEBUG] [2018-09-20 14:39:51] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :Super crap
+[DEBUG] [2018-09-20 14:40:05] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :.help
+[DEBUG] [2018-09-20 14:40:05] >> 
+:zaphod-dev!zaphod@tilde.team PRIVMSG #bots :i'm a bot that does a couple random things. available modules: admin, ascii, help, hhgtg, source, talk, time. my prefix is `.`
+[DEBUG] [2018-09-20 14:40:15] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :idk what else to add to zaphod-dev 
+[DEBUG] [2018-09-20 14:40:18] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :.source
+[DEBUG] [2018-09-20 14:40:18] >> 
+:zaphod-dev!zaphod@tilde.team PRIVMSG #bots :you can find my source code here: https://tildegit.org/ben/zaphod
+[DEBUG] [2018-09-20 14:40:27] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :.talk
+[DEBUG] [2018-09-20 14:40:27] >> 
+:zaphod-dev!zaphod@tilde.team PRIVMSG #bots :"Hello, ladies. You may not know me yet, but you're gonna miss me tomorrow."
+[DEBUG] [2018-09-20 14:40:30] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :.talk
+[DEBUG] [2018-09-20 14:40:30] >> 
+:zaphod-dev!zaphod@tilde.team PRIVMSG #bots :“I'm up to here with cool, okay? I am so amazingly cool you could keep a side of meat in me for a month. I am so hip I have difficulty seeing over my pelvis.”
+[DEBUG] [2018-09-20 14:40:33] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :.talk
+[DEBUG] [2018-09-20 14:40:33] >> 
+:zaphod-dev!zaphod@tilde.team PRIVMSG #bots :What do you think I am, completely without any moral whatsits, what are they called, those moral things?
+[DEBUG] [2018-09-20 14:40:39] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :.hhgtg
+[DEBUG] [2018-09-20 14:40:39] >> 
+:zaphod-dev!zaphod@tilde.team PRIVMSG #bots :Don’t Panic.
+[DEBUG] [2018-09-20 14:40:47] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :idk what else it should do
+[DEBUG] [2018-09-20 14:41:25] >> 
+:BabiliBot|py!BabiliBot|p@tilde.team JOIN :#bots
+[DEBUG] [2018-09-20 14:41:25] >> 
+:BabiliBot|py!BabiliBot|p@tilde.team JOIN :#insane
+[DEBUG] [2018-09-20 14:41:33] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :!hmmscore
+[INFO] [2018-09-20 14:41:33] >> 
+PRIVMSG #bots :Hmm score for 'aewens': 207
+
+[DEBUG] [2018-09-20 14:41:33] >> 
+:BabiliBot|py!BabiliBot|p@tilde.team PRIVMSG #bots :Hmm score for 'aewens': 207
+[INFO] [2018-09-20 14:41:33] >> 
+PRIVMSG #bots :ACTION is ignoring BabiliBot|py for reason 'Auto-banished'
+
+[DEBUG] [2018-09-20 14:41:37] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :Hmm
+[DEBUG] [2018-09-20 14:41:45] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :Also, interesting xD
+[DEBUG] [2018-09-20 14:41:52] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :oh nice
+[DEBUG] [2018-09-20 14:42:08] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :!hmmscore
+[INFO] [2018-09-20 14:42:08] >> 
+PRIVMSG #bots :Hmm score for 'aewens': 207
+
+[DEBUG] [2018-09-20 14:42:08] >> 
+:BabiliBot|py!BabiliBot|p@tilde.team PRIVMSG #bots :Hmm score for 'aewens': 207
+[INFO] [2018-09-20 14:42:08] >> 
+PRIVMSG #bots :ACTION is ignoring BabiliBot|py for reason 'Auto-banished'
+
+[DEBUG] [2018-09-20 14:43:26] >> 
+:BabiliBot|py!BabiliBot|p@tilde.team QUIT :Connection closed
+[DEBUG] [2018-09-20 14:43:28] >> 
+:BabiliBot|py!BabiliBot|p@tilde.team JOIN :#bots
+:BabiliBot|py!BabiliBot|p@tilde.team JOIN :#insane
+[DEBUG] [2018-09-20 14:43:33] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :Hmm
+[DEBUG] [2018-09-20 14:43:37] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :hey BabiliBot 
+[DEBUG] [2018-09-20 14:43:54] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :i'm gonna have a lot of free time tomorrow, maybe i'll install arch when i'm not at class, since all I really need is firefox
+[DEBUG] [2018-09-20 14:44:09] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:44:09] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:44:09] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :i'll I have to do is remember to back everything up lol
+[DEBUG] [2018-09-20 14:44:31] >> 
+:BabiliBot|py!BabiliBot|p@tilde.team QUIT :Connection closed
+[DEBUG] [2018-09-20 14:44:33] >> 
+:BabiliBot|py!BabiliBot|p@tilde.team JOIN :#bots
+[DEBUG] [2018-09-20 14:44:33] >> 
+:BabiliBot|py!BabiliBot|p@tilde.team JOIN :#insane
+[DEBUG] [2018-09-20 14:44:34] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :but first, i should write a little script to symlink everything
+[DEBUG] [2018-09-20 14:44:36] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :Hmm
+[DEBUG] [2018-09-20 14:44:38] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :!hmmscore
+[INFO] [2018-09-20 14:44:38] >> 
+PRIVMSG #bots :Hmm score for 'aewens': 207
+
+[DEBUG] [2018-09-20 14:44:38] >> 
+:BabiliBot|py!BabiliBot|p@tilde.team PRIVMSG #bots :Hmm score for 'aewens': 208
+[INFO] [2018-09-20 14:44:38] >> 
+PRIVMSG #bots :ACTION is ignoring BabiliBot|py for reason 'Auto-banished'
+
+[DEBUG] [2018-09-20 14:44:42] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :There we go
+[DEBUG] [2018-09-20 14:44:46] >> 
+:BabiliBot|py!BabiliBot|p@tilde.team QUIT :Connection closed
+[INFO] [2018-09-20 14:44:51] >> 
+USER BabiliBot BabiliBot BabiliBot BabiliBot
+
+[INFO] [2018-09-20 14:44:51] >> 
+NICK BabiliBot
+
+[DEBUG] [2018-09-20 14:44:51] >> 
+:team.tilde.chat NOTICE Auth :*** Looking up your hostname...
+[DEBUG] [2018-09-20 14:44:51] >> 
+:team.tilde.chat NOTICE Auth :*** Found your hostname (localhost) -- cached
+[DEBUG] [2018-09-20 14:44:52] >> 
+:team.tilde.chat NOTICE Auth :Welcome to tilde.chat!
+:team.tilde.chat 001 BabiliBot :Welcome to the tilde.chat IRC Network BabiliBot!BabiliBot@localhost
+:team.tilde.chat 002 BabiliBot :Your host is team.tilde.chat, running version InspIRCd-2.0
+:team.tilde.chat 003 BabiliBot :This server was created 13:26:16 Jun 18 2018
+:team.tilde.chat 004 BabiliBot team.tilde.chat InspIRCd-2.0 BIRiorsw MRabfhiklmnopqrstvz abfhkloqv
+:team.tilde.chat 005 BabiliBot AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=b,k,fl,MRimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXTBAN=,RUz FNC KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=100 :are supported by this server
+:team.tilde.chat 005 BabiliBot MAXPARA=32 MAXTARGETS=20 MODES=20 NETWORK=tilde.chat NICKLEN=31 PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STATUSMSG=~&@%+ TOPICLEN=307 VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+:team.tilde.chat 042 BabiliBot 674AAAWDO :your unique ID
+:team.tilde.chat 375 BabiliBot :team.tilde.chat message of the day
+:team.tilde.chat 372 BabiliBot :-    __                        __  _ __    __           __          __ 
+:team.tilde.chat 372 BabiliBot :-   / /____  ____ _____ ___   / /_(_) /___/ /__   _____/ /_  ____ _/ /_
+:team.tilde.chat 372 BabiliBot :-  / __/ _ \/ __ `/ __ `__ \ / __/ / / __  / _ \ / ___/ __ \/ __ `/ __/
+:team.tilde.chat 372 BabiliBot :- / /_/  __/ /_/ / / / / / // /_/ / / /_/ /  __// /__/ / / / /_/ / /_  
+:team.tilde.chat 372 BabiliBot :- \__/\___/\__,_/_/ /_/ /_(_)__/_/_/\__,_/\___(_)___/_/ /_/\__,_/\__/  
+:team.tilde.chat 372 BabiliBot :-                                                                      
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :- welcome to tilde.chat (this node hosted on tilde.team)
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :- check out the appropriate channel for your tilde: 
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :-   - tilde.team => #team
+:team.tilde.chat 372 BabiliBot :-   - tilde.town => #town
+:team.tilde.ch
+[DEBUG] [2018-09-20 14:44:52] >> 
+at 372 BabiliBot :-   - yourtilde  => #your
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :-   the main lobby channel is #meta. check /list for the other channels
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :- msg an oper if you need anything and 
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :-   ~~ be excellent to each other ~~
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 372 BabiliBot :- connecting and chatting here implies agreement with the code of conduct:
+:team.tilde.chat 372 BabiliBot :- https://tilde.team/wiki/?page=code-of-conduct
+:team.tilde.chat 372 BabiliBot :- 
+:team.tilde.chat 376 BabiliBot :End of message of the day.
+:team.tilde.chat 251 BabiliBot :There are 97 users and 7 invisible on 4 servers
+:team.tilde.chat 252 BabiliBot 2 :operator(s) online
+:team.tilde.chat 254 BabiliBot 51 :channels formed
+:team.tilde.chat 255 BabiliBot :I have 76 clients and 3 servers
+:team.tilde.chat 265 BabiliBot :Current Local Users: 76  Max: 77
+:team.tilde.chat 266 BabiliBot :Current Global Users: 104  Max: 105
+:team.tilde.chat NOTICE BabiliBot :Setting your virtual host: tilde.team
+:team.tilde.chat 396 BabiliBot tilde.team :is now your displayed host
+:NickServ!services@services.tilde.chat NOTICE BabiliBot :This nickname is registered and protected.  If it is your
+:NickServ!services@services.tilde.chat NOTICE BabiliBot :nick, type /msg NickServ IDENTIFY password.  Otherwise,
+:NickServ!services@services.tilde.chat NOTICE BabiliBot :please choose a different nick.
+[INFO] [2018-09-20 14:44:52] >> 
+PRIVMSG NickServ :IDENTIFY ************************
+
+[DEBUG] [2018-09-20 14:44:52] >> 
+:NickServ!services@services.tilde.chat NOTICE BabiliBot :Password accepted - you are now recognized.
+:team.tilde.chat 900 BabiliBot BabiliBot!BabiliBot@tilde.team BabiliBot :You are now logged in as BabiliBot
+[DEBUG] [2018-09-20 14:44:52] >> 
+:NickServ!services@services.tilde.chat MODE BabiliBot +r
+[INFO] [2018-09-20 14:44:52] >> 
+MODE BabiliBot +B
+
+[INFO] [2018-09-20 14:44:52] >> 
+JOIN #bots
+
+[DEBUG] [2018-09-20 14:44:52] >> 
+:BabiliBot!BabiliBot@tilde.team MODE BabiliBot +B
+[DEBUG] [2018-09-20 14:44:52] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#bots
+:team.tilde.chat 332 BabiliBot #bots :put your bots here thanks https://tilde.team/wiki/?page=irc-bots
+:team.tilde.chat 333 BabiliBot #bots ben 1534775838
+:team.tilde.chat 353 BabiliBot = #bots :endorphant rain1 aewens ~ben @khuxkm minerbot2 khuxkm|lounge slipyx jan6|teamweb sedbot freeappsw desvox_ TildeBot aewens|otg dustbot BabiliBot brendantcc_lounge dustboto zaphod-dev cirno midlow desvox Clefable 
+:team.tilde.chat 366 BabiliBot #bots :End of /NAMES list.
+[INFO] [2018-09-20 14:44:52] >> 
+JOIN #insane
+
+[DEBUG] [2018-09-20 14:44:52] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#insane
+:team.tilde.chat 332 BabiliBot #insane :"BECAUSE SOMETIMES YOU WANT TO BE INSANE INSTEAD OF CHAOTIC"
+:team.tilde.chat 333 BabiliBot #insane aewens 1534047048
+:team.tilde.chat 353 BabiliBot @ #insane :~aewens aewens|otg BabiliBot 
+:team.tilde.chat 366 BabiliBot #insane :End of /NAMES list.
+[INFO] [2018-09-20 14:44:52] >> 
+JOIN #meta
+
+[DEBUG] [2018-09-20 14:44:52] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#meta
+:team.tilde.chat 332 BabiliBot #meta :general chat for the tildeverse ~~~~ https://tildeverse.org ircnet: https://tilde.chat | discord bridge is down
+:team.tilde.chat 333 BabiliBot #meta ben 1535345589
+:team.tilde.chat 353 BabiliBot = #meta :endorphant billy5 rain1 cdmnky th3str3ak ubergeek space_cadet +aewens ben|lounge ~ben mhj @ChanServ @cmccabe baco mio refragable mspe ~khuxkm dougtoo kirch1 sin dpc kumquat lempamo scifi kilic ~deepend minerbot2 khuxkm|lounge slipyx @virtual jan6|teamweb tildeguest jackomix3 sedbot code21 nincollin sose1 freeappsw sebweb desvox_ gilda mushmouth nearll4 TildeBot GoldenBear Drav aewens|otg sebboh vilmibm arne +tomasino BabiliBot phoenix kirch brendantcc erxeto login 
+:team.tilde.chat 353 BabiliBot = #meta :atte1nmos|mobile brendantcc_lounge Fessus nilaky cirno kadin midlow mushmouth|lounge-user zyeri sose angel billinja tab5 desvox jackomix micaiah sirx Clefable 
+:team.tilde.chat 366 BabiliBot #meta :End of /NAMES list.
+[INFO] [2018-09-20 14:44:52] >> 
+JOIN #team
+
+[DEBUG] [2018-09-20 14:44:52] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#team
+:team.tilde.chat 332 BabiliBot #team :tilde.team specific stuff ~ https://tilde.team ~ https://tildegit.org/team
+:team.tilde.chat 333 BabiliBot #team ben 1536339842
+:team.tilde.chat 353 BabiliBot = #team :billy5 rain1 cdmnky ubergeek aewens ben|lounge ~ben @ChanServ @cmccabe baco refragable @khuxkm dpc lempamo kilic deepend minerbot2 khuxkm|lounge slipyx jan6|teamweb sedbot code21 sose1 freeappsw desvox_ gilda GoldenBear aewens|otg sebboh arne tomasino BabiliBot phoenix kirch erxeto trifex atte1nmos|mobile brendantcc_lounge cirno kadin midlow zyeri angel billinja tab5 desvox jackomix micaiah sirx Clefable 
+:team.tilde.chat 366 BabiliBot #team :End of /NAMES list.
+[INFO] [2018-09-20 14:44:52] >> 
+JOIN #chaos
+
+[DEBUG] [2018-09-20 14:44:53] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#chaos
+:team.tilde.chat 332 BabiliBot #chaos :aewens is the king of chaos, jan6 is nothing but an impostor! also, everyone gets ops
+:team.tilde.chat 333 BabiliBot #chaos khuxkm|lounge!khuxkm@sudoers.tilde.team 1537449471
+:team.tilde.chat 353 BabiliBot = #chaos :~cdmnky ~aewens ~kirch1 ~scifi ~deepend ~khuxkm|lounge ~jan6|teamweb ~jackomix3 ~sedbot ~gilda ~TildeBot ~aewens|otg ~arne BabiliBot ~brendantcc_lounge ~desvox 
+:team.tilde.chat 366 BabiliBot #chaos :End of /NAMES list.
+[INFO] [2018-09-20 14:44:53] >> 
+JOIN #tildeverse
+
+[DEBUG] [2018-09-20 14:44:53] >> 
+:ChanServ!services@services.tilde.chat MODE #chaos +qo BabiliBot BabiliBot
+[DEBUG] [2018-09-20 14:44:55] >> 
+:BabiliBot!BabiliBot@tilde.team JOIN :#tildeverse
+:team.tilde.chat 332 BabiliBot #tildeverse :Tildeverse meeting/discussion place - https://tildeverse.org/
+:team.tilde.chat 333 BabiliBot #tildeverse khuxkm!khuxkm@sudoers.tilde.team 1531871407
+:team.tilde.chat 353 BabiliBot = #tildeverse :ubergeek aewens ben minerbot2 khuxkm|lounge sedbot aewens|otg BabiliBot 
+:team.tilde.chat 366 BabiliBot #tildeverse :End of /NAMES list.
+[DEBUG] [2018-09-20 14:45:13] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :!pardon BabiliBot|py
+[INFO] [2018-09-20 14:45:13] >> 
+PRIVMSG #bots :BabiliBot|py has been pardoned
+
+[DEBUG] [2018-09-20 14:45:58] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :hey zaphod-dev 
+[DEBUG] [2018-09-20 14:45:58] >> 
+:zaphod-dev!zaphod@tilde.team PRIVMSG #bots :hey ben!
+[DEBUG] [2018-09-20 14:46:26] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :cdmnky: it's called stow
+[DEBUG] [2018-09-20 14:46:38] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :https://www.gnu.org/software/stow/
+[DEBUG] [2018-09-20 14:46:39] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :Stow - GNU Project - Free Software Foundation https://bhh.sh/5i
+[DEBUG] [2018-09-20 14:46:57] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :https://tildegit.org/ben/dotfiles/src/branch/master/Makefile
+[DEBUG] [2018-09-20 14:46:58] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :ben/dotfiles: my dotfiles - tildegit https://bhh.sh/168
+[DEBUG] [2018-09-20 14:47:14] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:47:14] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:47:26] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :inspired by tomasino's dotfiles
+[DEBUG] [2018-09-20 14:47:30] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :make + stow = happy
+[DEBUG] [2018-09-20 14:49:15] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:49:15] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:50:15] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :The inspiration link: https://github.com/jamestomasino/dotfiles
+[DEBUG] [2018-09-20 14:50:16] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :GitHub - jamestomasino/dotfiles: My dotfiles https://bhh.sh/5h
+[DEBUG] [2018-09-20 14:51:00] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :And the related blog about it: https://labs.tomasino.org/dotfiles/
+[DEBUG] [2018-09-20 14:51:00] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta : dotfiles &middot; Tomasino Labs  https://bhh.sh/169
+[DEBUG] [2018-09-20 14:51:16] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:51:16] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:51:19] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :dotfiles make the world go round
+[DEBUG] [2018-09-20 14:51:28] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :Hey zaphod-dev 
+[DEBUG] [2018-09-20 14:51:28] >> 
+:zaphod-dev!zaphod@tilde.team PRIVMSG #bots :hey aewens!
+[DEBUG] [2018-09-20 14:51:32] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :no u
+[DEBUG] [2018-09-20 14:51:40] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :zaphod-dev: Do a thing
+:zaphod-dev!zaphod@tilde.team PRIVMSG #bots :hey aewens!
+[DEBUG] [2018-09-20 14:51:44] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :Boo!
+[DEBUG] [2018-09-20 14:52:16] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :i've never worked with makefiles before, it looks pretty simple enough
+[DEBUG] [2018-09-20 14:53:17] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:53:17] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:55:18] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:55:18] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:57:19] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:57:19] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 14:57:28] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :yeah makefiles are great tbh
+[DEBUG] [2018-09-20 14:58:21] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :I'm seeing all these different configs for different systems, is it good practice to include all OS's even though you really don't have many differences for them?
+[DEBUG] [2018-09-20 14:59:20] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 14:59:20] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:01:18] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :if you don't use it, don't include it
+[DEBUG] [2018-09-20 15:01:21] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:01:21] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:03:22] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:03:22] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:03:26] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :Your hourly reminder that https://bongo.cat/ is a thing
+[DEBUG] [2018-09-20 15:03:26] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :Bongo Cat 
+[DEBUG] [2018-09-20 15:05:23] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:05:23] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:07:24] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:07:24] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:09:25] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:09:25] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:11:26] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:11:26] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:13:27] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:13:27] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:13:45] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :yes
+[DEBUG] [2018-09-20 15:14:02] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :what's the .PHONY thing for?
+[DEBUG] [2018-09-20 15:15:28] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:15:28] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:17:29] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:17:29] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:18:35] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :zaphod-dev: 
+[DEBUG] [2018-09-20 15:18:41] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :zaphod-dev: hi
+[DEBUG] [2018-09-20 15:18:41] >> 
+:zaphod-dev!zaphod@tilde.team PRIVMSG #bots :hey ben!
+[DEBUG] [2018-09-20 15:18:47] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :oh thing matched the regex for hi
+[DEBUG] [2018-09-20 15:19:21] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :hm?
+[DEBUG] [2018-09-20 15:19:30] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:19:30] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:19:55] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :at the end of the file, it says .PHONY: with a whole bunch of section headers
+[DEBUG] [2018-09-20 15:20:20] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :paging tomasino 
+[DEBUG] [2018-09-20 15:20:24] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :^^
+[DEBUG] [2018-09-20 15:20:27] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :https://tildegit.org/ben/dotfiles/src/branch/master/Makefile#L80
+[DEBUG] [2018-09-20 15:20:30] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :ben/dotfiles: my dotfiles - tildegit https://bhh.sh/168
+[DEBUG] [2018-09-20 15:20:31] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :The line in question
+[DEBUG] [2018-09-20 15:20:56] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :And probably this: https://stackoverflow.com/questions/2145590/what-is-the-purpose-of-phony-in-a-makefile#2145605
+[DEBUG] [2018-09-20 15:20:57] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :What is the purpose of .PHONY in a makefile? - Stack Overflow https://bhh.sh/16a
+[DEBUG] [2018-09-20 15:21:31] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:21:31] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:21:32] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :"In terms of Make, a phony target is simply a target that is always out-of-date, so whenever you ask make <phony_target>, it will run, independent from the state of the file system."
+[DEBUG] [2018-09-20 15:22:18] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :zaphod-dev: Do a thing
+[DEBUG] [2018-09-20 15:22:18] >> 
+:zaphod-dev!zaphod@tilde.team PRIVMSG #bots :hey aewens!
+[DEBUG] [2018-09-20 15:22:33] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :oh ok
+[DEBUG] [2018-09-20 15:22:49] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :zaphod-dev: thing
+[DEBUG] [2018-09-20 15:22:49] >> 
+:zaphod-dev!zaphod@tilde.team PRIVMSG #bots :hey ben!
+[DEBUG] [2018-09-20 15:23:32] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:23:32] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:24:22] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :zaphod-dev: Pneumonoultramicroscopicsilicovolcanoconiosis
+[DEBUG] [2018-09-20 15:24:31] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :Ha!
+[DEBUG] [2018-09-20 15:24:55] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :Wait, is it just matching the "hi" in thing? xD
+[DEBUG] [2018-09-20 15:25:33] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:25:33] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:26:21] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :yes
+[DEBUG] [2018-09-20 15:26:24] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :.source
+[DEBUG] [2018-09-20 15:26:24] >> 
+:zaphod-dev!zaphod@tilde.team PRIVMSG #bots :you can find my source code here: https://tildegit.org/ben/zaphod
+[DEBUG] [2018-09-20 15:26:49] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :https://tildegit.org/ben/zaphod/src/branch/master/lib/bot.ex#L127
+[DEBUG] [2018-09-20 15:27:34] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:27:34] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:29:35] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:29:35] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:30:17] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :that makes sense
+[DEBUG] [2018-09-20 15:31:36] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:31:36] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:31:39] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :I'm here
+[DEBUG] [2018-09-20 15:31:43] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :hey hi
+[DEBUG] [2018-09-20 15:31:46] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :One sec.. wife talking
+[DEBUG] [2018-09-20 15:31:54] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :there was a question about the .PHONY target in makefiles but we figured it out
+[DEBUG] [2018-09-20 15:33:23] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :You can chance it to: Regex.match?(~r/(hi|hey|h[ae]llo|hola)/s?/i, msg) ->
+[DEBUG] [2018-09-20 15:33:37] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:33:37] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:34:06] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :That will make it match the words hi,hello,hallo,hey,hola without matching thing.. I think
+[DEBUG] [2018-09-20 15:34:48] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :eh
+[DEBUG] [2018-09-20 15:34:50] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :idk
+[DEBUG] [2018-09-20 15:34:51] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :Wait: Regex.match?(~r/(hi|hey|h[ae]llo|hola)\s?/i, msg) ->
+[DEBUG] [2018-09-20 15:34:52] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :s/k/c
+[DEBUG] [2018-09-20 15:34:53] >> 
+:sedbot!sedbot@localhost PRIVMSG #bots :<ben> idc
+[DEBUG] [2018-09-20 15:35:30] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :wyfe
+[DEBUG] [2018-09-20 15:35:38] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:35:38] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:35:49] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :Nice
+[DEBUG] [2018-09-20 15:36:23] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :Just verified this works on regexr.com: /(^|\s)(hi|hey|h[ae]llo|hola)\s?/i
+[DEBUG] [2018-09-20 15:36:38] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :For what it's worth
+[DEBUG] [2018-09-20 15:36:54] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :there's also \b for word boundaries
+[DEBUG] [2018-09-20 15:36:57] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :instead of checking for spaces
+[DEBUG] [2018-09-20 15:37:33] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :Mistakes to avoid in life: If you make a voice when you're quoting your wife, don't go for any of your naggy/chain-smoker voices.
+[DEBUG] [2018-09-20 15:37:39] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:37:39] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:37:58] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :Wait, that's a thing? I need to research this
+[DEBUG] [2018-09-20 15:38:04] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :seems like that would be obvious
+[DEBUG] [2018-09-20 15:38:12] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :Typically targets are files and it allows all sorts of coolness with parallelism and dependent trees
+[DEBUG] [2018-09-20 15:38:53] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :But in my dotfiles the targets aren't individual files at all, so PHONY
+[DEBUG] [2018-09-20 15:39:00] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :yes
+[DEBUG] [2018-09-20 15:39:09] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :fosho
+[DEBUG] [2018-09-20 15:39:27] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #bots :I'm having one of those "where as this been all my life" moments.
+[DEBUG] [2018-09-20 15:39:33] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #bots :lmao
+[DEBUG] [2018-09-20 15:39:34] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :https://github.com/jamestomasino/ts-boilerplate/blob/master/Makefile
+[DEBUG] [2018-09-20 15:39:36] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :ts-boilerplate/Makefile at master · jamestomasino/ts-boilerplate · GitHub https://bhh.sh/16b
+[DEBUG] [2018-09-20 15:39:40] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:39:40] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:39:43] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :Here's a much cooler Makefile
+[DEBUG] [2018-09-20 15:39:47] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :ts?
+[DEBUG] [2018-09-20 15:39:51] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :typescript?
+[DEBUG] [2018-09-20 15:40:49] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :Yep
+[DEBUG] [2018-09-20 15:41:09] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :It was a proof of concept make builder for typescript projects
+[DEBUG] [2018-09-20 15:41:09] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :ooh that's sexy
+[DEBUG] [2018-09-20 15:41:25] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :ohh nice
+[DEBUG] [2018-09-20 15:41:41] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:41:41] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:41:51] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :I hate webpack
+[DEBUG] [2018-09-20 15:41:56] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta ::)
+[DEBUG] [2018-09-20 15:42:00] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :same
+[DEBUG] [2018-09-20 15:42:13] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :I just write websites in ruby
+[DEBUG] [2018-09-20 15:42:21] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :webpack{er,}
+[DEBUG] [2018-09-20 15:43:42] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:43:42] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:45:43] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:45:43] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:47:37] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :finally got it set up! this'll really help
+[DEBUG] [2018-09-20 15:47:44] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:47:44] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:47:45] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :https://tildegit.org/cdmnky/dotfiles
+[DEBUG] [2018-09-20 15:47:46] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :cdmnky/dotfiles: My dotfiles. Work in progress - tildegit https://bhh.sh/16c
+[DEBUG] [2018-09-20 15:48:13] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :noice!
+[DEBUG] [2018-09-20 15:48:29] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :I wasn't thinking and got hung up on putting the dot directory inside of the main one so I got a bunch of stuff dumped in home lol
+[DEBUG] [2018-09-20 15:48:32] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :i just do plain html/css
+[DEBUG] [2018-09-20 15:48:36] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :ie ~/newsboat/.newsboat
+[DEBUG] [2018-09-20 15:48:51] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :i think it's ~/.config/newsboat?
+[DEBUG] [2018-09-20 15:49:01] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :it doesn't matter at all
+[DEBUG] [2018-09-20 15:49:45] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:49:45] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:50:22] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :tomasino, i noticed you still used a newsbeuter config. apparently newsbeuter's lead dev stopped and it was forked into newsboat (same thing practically, all you need to do is move the config folder)
+[DEBUG] [2018-09-20 15:51:18] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :You're right. I requested newsboat to be installed on SDF 4 times to no response, so my config is still where it is
+[DEBUG] [2018-09-20 15:51:30] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :rip
+[DEBUG] [2018-09-20 15:51:32] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :ohhh, I see
+[DEBUG] [2018-09-20 15:51:46] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:51:46] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:51:49] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :I always forget to use sdf
+[DEBUG] [2018-09-20 15:51:58] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :I hop in IRC there sometimes
+[DEBUG] [2018-09-20 15:52:00] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :I can move my feed to another box at this point
+[DEBUG] [2018-09-20 15:52:10] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :Feeds
+[DEBUG] [2018-09-20 15:52:56] >> 
+:khuxkm|lounge!khuxkm@tilde.team PRIVMSG #meta :rss2nntp when?
+[DEBUG] [2018-09-20 15:53:03] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :now all i gotta do is back up my media, docs and ssh keys tonight before I get ready to install arch
+[DEBUG] [2018-09-20 15:53:22] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :khuxkm|lounge: i wouldn't mind that
+[DEBUG] [2018-09-20 15:53:30] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :although school wifi needs a portal to register a device, so i might not be able to connect without a working gui
+[DEBUG] [2018-09-20 15:53:35] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :Wait, what does newboat do?
+[DEBUG] [2018-09-20 15:53:41] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :rss feed aewens 
+[DEBUG] [2018-09-20 15:53:43] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :s/w/ws/
+[DEBUG] [2018-09-20 15:53:43] >> 
+:sedbot!sedbot@localhost PRIVMSG #meta :<aewens> Wait, wshat does newboat do?
+[DEBUG] [2018-09-20 15:53:47] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:53:47] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:53:52] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :Aww, okay. Neat
+[DEBUG] [2018-09-20 15:53:53] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :from command line
+[DEBUG] [2018-09-20 15:54:35] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :I guess I could boot the live iso and check to see if lynx works for it before I do anything
+[DEBUG] [2018-09-20 15:55:13] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :fosho
+[DEBUG] [2018-09-20 15:55:46] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :let's hope I don't mess up my keys this time lol
+[DEBUG] [2018-09-20 15:55:48] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:55:48] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:56:56] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :i might try out the new linux-hardened series arch is maintaining, and i kinda want to try manually setting up LUKS encryption
+[DEBUG] [2018-09-20 15:57:19] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :only time I ever did that well was with the installer's "check this box" method
+[DEBUG] [2018-09-20 15:57:30] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :brb
+[DEBUG] [2018-09-20 15:57:49] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:57:49] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:59:50] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 15:59:50] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 15:59:50] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :heh same
+[DEBUG] [2018-09-20 16:00:02] >> 
+:cmccabe!cmccabe@tilde.team PRIVMSG #team :woohoo, friday is just around the corner.  
+[DEBUG] [2018-09-20 16:00:16] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :oh shit it's cmccabe!
+[DEBUG] [2018-09-20 16:00:21] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :what's up my dude
+[DEBUG] [2018-09-20 16:00:29] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :there an image with debian or something that you can get
+[DEBUG] [2018-09-20 16:00:38] >> 
+:cmccabe!cmccabe@tilde.team PRIVMSG #team :word
+[DEBUG] [2018-09-20 16:00:38] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :what's new in your world
+[DEBUG] [2018-09-20 16:00:40] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :but you have to mess around with the stupid fucking linux kernel to get it to work
+[DEBUG] [2018-09-20 16:00:45] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :and boot loader
+[DEBUG] [2018-09-20 16:00:47] >> 
+:cmccabe!cmccabe@tilde.team PRIVMSG #team :man... busy busy busy
+[DEBUG] [2018-09-20 16:00:52] >> 
+:cmccabe!cmccabe@tilde.team PRIVMSG #team :how about you?
+[DEBUG] [2018-09-20 16:00:53] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :I just got back from 10 days in Italy 
+[DEBUG] [2018-09-20 16:00:57] >> 
+:cmccabe!cmccabe@tilde.team PRIVMSG #team :whoa nice
+[DEBUG] [2018-09-20 16:01:08] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :so great
+[DEBUG] [2018-09-20 16:01:19] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :hadn't been out of the country on over a year :(
+[DEBUG] [2018-09-20 16:01:24] >> 
+:cmccabe!cmccabe@tilde.team PRIVMSG #team :family trip, business, or just fun?
+[DEBUG] [2018-09-20 16:01:24] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :these are just many reasons on top of the coc they are inforcing that i don't want to touch
+[DEBUG] [2018-09-20 16:01:29] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :just fun!
+[DEBUG] [2018-09-20 16:01:32] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :again really
+[DEBUG] [2018-09-20 16:01:36] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :went with two good friends from high school
+[DEBUG] [2018-09-20 16:01:51] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:01:51] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:02:23] >> 
+:cmccabe!cmccabe@tilde.team PRIVMSG #team :cool
+[DEBUG] [2018-09-20 16:02:44] >> 
+:cmccabe!cmccabe@tilde.team PRIVMSG #team :how goes ~team? any big changes recently?
+[DEBUG] [2018-09-20 16:02:47] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :I was working on a blog post with some photos last night but I fell asleep
+[DEBUG] [2018-09-20 16:03:00] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :updated the wiki a bit at lunch today
+[DEBUG] [2018-09-20 16:03:10] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :nothing too exciting that comes to mind
+[DEBUG] [2018-09-20 16:03:36] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :tild3.org tild3.club tilde.site and tildeteam.org now behave the same as tilde.team
+[DEBUG] [2018-09-20 16:03:49] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :is linux on its way out after the new coc? I hope not
+[DEBUG] [2018-09-20 16:03:52] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:03:52] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:03:57] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :it pretty much is cdmnky 
+[DEBUG] [2018-09-20 16:04:13] >> 
+:cmccabe!cmccabe@tilde.team PRIVMSG #team :meaning that they just point to the same ip?
+[DEBUG] [2018-09-20 16:04:13] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :what
+[DEBUG] [2018-09-20 16:04:33] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :I'm out of the loop on this one
+[DEBUG] [2018-09-20 16:04:37] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :linux kernel adopting a coc/tos from a social justice warrior/feminist with really fucked up views
+[DEBUG] [2018-09-20 16:04:39] >> 
+:cmccabe!cmccabe@tilde.team PRIVMSG #team :you have quite the url collection going!
+[DEBUG] [2018-09-20 16:04:39] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :idk, you never know. it could just end up like the nike thing, and people only got upset for like a day until the next news thing
+[DEBUG] [2018-09-20 16:04:50] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :https://media.discordapp.net/attachments/410592341334949898/492416828832874506/e20633d554b0368c9841e14f5870081ea01c30af7c1b1b6c6ec829025aeaf11f.png
+[DEBUG] [2018-09-20 16:04:53] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :mr ada
+[DEBUG] [2018-09-20 16:05:19] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :ben, all this while linus is taking a break because he somehow feels like his rants are hurting people and that he needs therapy for it or something
+[DEBUG] [2018-09-20 16:05:35] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :apparently his daughter signed it, but I don't want to gaslight here
+[DEBUG] [2018-09-20 16:05:41] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :ben: https://news.ycombinator.com/item?id=18000698
+[DEBUG] [2018-09-20 16:05:43] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :Linus Torvalds apologizes for his behavior, takes time off | Hacker News https://bhh.sh/16d
+[DEBUG] [2018-09-20 16:05:53] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:05:53] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:06:16] >> 
+:cmccabe!cmccabe@tilde.team PRIVMSG #meta :emotional awareness training for the whole software dev community
+[DEBUG] [2018-09-20 16:06:32] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :also, I despise this New Yorker article https://www.newyorker.com/science/elements/after-years-of-abusive-e-mails-the-creator-of-linux-steps-aside
+[DEBUG] [2018-09-20 16:06:32] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :The New Yorker https://bhh.sh/16e
+[DEBUG] [2018-09-20 16:06:34] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :tl;dr: Linux got SJW'd and Linus is stepping back from the Linux project because he's been convinced he's too big of an asshole to manage Linux
+[DEBUG] [2018-09-20 16:06:58] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :tbf, he hasn't really managed linux for a decade
+[DEBUG] [2018-09-20 16:07:02] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :what aewens said
+[DEBUG] [2018-09-20 16:07:54] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:07:54] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:08:24] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :who going to want to touch a kernel or community that based around identity politics? especailly after the coc
+[DEBUG] [2018-09-20 16:08:51] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :where is the identity politics in self-improvement?
+[DEBUG] [2018-09-20 16:09:13] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :being stubborn and persistent on kernel stuff is not the same thing as being an asshole to people
+[DEBUG] [2018-09-20 16:09:16] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :no they hate linus torvalds long rants
+[DEBUG] [2018-09-20 16:09:21] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :or rants period
+[DEBUG] [2018-09-20 16:09:40] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :I applaud self-improvement
+[DEBUG] [2018-09-20 16:09:55] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:09:55] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:10:02] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :who's the "they" you're talking about 
+[DEBUG] [2018-09-20 16:10:36] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :and what about a coc? I didn't see that in the link 
+[DEBUG] [2018-09-20 16:10:36] >> 
+:khuxkm|lounge!khuxkm@tilde.team PRIVMSG #meta :>linux
+[DEBUG] [2018-09-20 16:10:40] >> 
+:khuxkm|lounge!khuxkm@tilde.team PRIVMSG #meta :>operating system
+[DEBUG] [2018-09-20 16:10:50] >> 
+:khuxkm|lounge!khuxkm@tilde.team PRIVMSG #meta :rmstriggered.png
+[DEBUG] [2018-09-20 16:10:54] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta ::thonk:
+[DEBUG] [2018-09-20 16:11:09] >> 
+:khuxkm|lounge!khuxkm@tilde.team QUIT :Changing host
+:khuxkm|lounge!khuxkm@sudoers.tilde.team JOIN #meta
+:khuxkm|lounge!khuxkm@sudoers.tilde.team JOIN #team
+:khuxkm|lounge!khuxkm@sudoers.tilde.team JOIN #tildeverse
+:khuxkm|lounge!khuxkm@sudoers.tilde.team JOIN #bots
+:khuxkm|lounge!khuxkm@sudoers.tilde.team JOIN #chaos
+:team.tilde.chat MODE #chaos +qo khuxkm|lounge khuxkm|lounge
+[DEBUG] [2018-09-20 16:11:09] >> 
+:ChanServ!services@services.tilde.chat MODE #meta +o khuxkm|lounge
+:ChanServ!services@services.tilde.chat MODE #team +o khuxkm|lounge
+[DEBUG] [2018-09-20 16:11:31] >> 
+:mushmouth!mushmouth@tcg.rhythm.master PRIVMSG #meta :ben do a second of rearch for the coc. https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/CodeOfConflict?id=ddbd2b7ad99a418c60397901a0f3c997d030c65e
+[DEBUG] [2018-09-20 16:11:32] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :CodeOfConflict\Documentation - kernel/git/torvalds/linux.git - Linux kernel source tree https://bhh.sh/16f
+[DEBUG] [2018-09-20 16:11:46] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #team :yeah and they do the same user page things
+[DEBUG] [2018-09-20 16:11:56] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:11:56] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:12:29] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :what's wrong with that?
+[DEBUG] [2018-09-20 16:12:33] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :seems pretty reasonable
+[DEBUG] [2018-09-20 16:12:38] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :If you want a no-filter, tongue-in-check synopsis of all of this, see the video Luke Smith made on this: https://www.youtube.com/watch?v=pwn3gIipCjU&t=530s
+[DEBUG] [2018-09-20 16:12:39] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :[You0,4Tube] 10Title:4 THE ABSOLUTE STATE OF LINUX (Chad Stoicism) | 10Uploaded by:4 Luke Smith | 10Length:4 20m42s | 10Date:4 18/09/2018 | 10Views:4 7,604 | 10Likes:4 86.54% | 10DisLIKEs:4 13.46%
+[DEBUG] [2018-09-20 16:12:41] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :THE ABSOLUTE STATE OF LINUX (Chad Stoicism) - YouTube https://bhh.sh/16g
+[DEBUG] [2018-09-20 16:13:35] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :Or the more chilled-out take on it from Bryan Lunduke - https://www.youtube.com/watch?v=Hzj4zIZJkWg
+[DEBUG] [2018-09-20 16:13:36] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :[You0,4Tube] 10Title:4 Linus Needs a Vacation + "Time to Throw Linus Under a Bus?" | 10Uploaded by:4 Bryan Lunduke | 10Length:4 9m18s | 10Date:4 09/09/2018 | 10Views:4 7,914 | 10Likes:4 0% | 10DisLIKEs:4 0%
+[DEBUG] [2018-09-20 16:13:37] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :Linus Needs a Vacation + &quot;Time to Throw Linus Under a Bus?&quot; - YouTube https://bhh.sh/16h
+[DEBUG] [2018-09-20 16:13:57] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:13:57] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:14:54] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :lunduke? is he still in no-comment no-liking patreon-only for the good stuff mode?
+[DEBUG] [2018-09-20 16:15:19] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :although, that's a good title lol
+[DEBUG] [2018-09-20 16:15:23] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :Yeah, he's something special
+[DEBUG] [2018-09-20 16:15:35] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :I like to think of him as post-modern RMS
+[DEBUG] [2018-09-20 16:15:58] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:15:58] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:17:59] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:17:59] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:20:00] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:20:00] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:22:01] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:22:01] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:24:02] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:24:02] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:26:03] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:26:03] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:28:04] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:28:04] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:30:05] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:30:05] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:32:06] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:32:06] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:34:00] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams PRIVMSG #meta :ooo luke smith
+[DEBUG] [2018-09-20 16:34:07] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:34:07] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:34:31] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :a wild virtual has appeared! TildeBot! use "despacito 2"
+[DEBUG] [2018-09-20 16:34:32] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :cdmnky, I use i3-gaps myself (or xfce if needed). What editor do you use spi with a small peepee, as master jan6 doesn't approve of killing people.
+[DEBUG] [2018-09-20 16:36:08] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:36:08] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:38:09] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:38:09] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:40:10] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:40:10] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:40:26] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :tomasino, 'turns out the problem with sdf this morning was that the servers upgraded and it took awhile for the new libraries to update with everything else which borked a bunch of libraries
+[DEBUG] [2018-09-20 16:41:07] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :something about going from 8-STABLE to RC1
+[DEBUG] [2018-09-20 16:41:34] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :Always a fun ride on the super dimensional fortress
+[DEBUG] [2018-09-20 16:42:11] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:42:11] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:42:13] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :oof, i should check announcements. they even said that stuff would break around 5am est
+[DEBUG] [2018-09-20 16:42:54] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i still don't get how not being a dick is a bad thing
+[DEBUG] [2018-09-20 16:42:58] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :re: coc
+[DEBUG] [2018-09-20 16:44:12] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:44:12] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:45:00] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :ben: Because for a project as big as the Linux kernel, it doesn't do well to have the attitude of "oh you, adding in something that breaks the userspace of linux applications, you really shouldn't do that. oh no, another one, let's try to not do that"
+[DEBUG] [2018-09-20 16:45:40] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :Could he be nicer, sure, we could all be nicer. But should we be nicer at the cost of the quality of the kernel? I vote "no"
+[DEBUG] [2018-09-20 16:46:13] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:46:13] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:46:59] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :what if linus leaves, and the resulting power vacuum causes microsoft to take it over? i mean they already are on the foundation board
+[DEBUG] [2018-09-20 16:47:13] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :could we be close to stage 3 of "embrace, extend, extinguish?"
+[DEBUG] [2018-09-20 16:47:31] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :ACTION realizes that sounds sort of like an alex jones level conspiracy theory
+[DEBUG] [2018-09-20 16:48:14] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:48:14] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:50:15] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:50:15] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:50:22] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :I mean, they are throwing milllions at the Linux Software Foundation to get a seat on the council already.
+[DEBUG] [2018-09-20 16:50:23] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :aewens: being stubborn/persistent doesn't require personal attacks
+[DEBUG] [2018-09-20 16:50:50] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :not attacking people doesn't sacrifice code quality
+[DEBUG] [2018-09-20 16:51:03] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :there's a difference between attacking the code and attacking the person
+[DEBUG] [2018-09-20 16:51:09] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :All I'm saying is that the Linus method has worked for years and brought us the Linux kernel we know and love today, and I'm not one to mess with a working system where people who write bad code feel bad for it.
+[DEBUG] [2018-09-20 16:51:35] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i'm saying that it's a good thing to not personally attack people
+[DEBUG] [2018-09-20 16:51:42] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :go ahead and tear the code apart
+[DEBUG] [2018-09-20 16:51:50] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :that doesn't interrupt the linus method
+[DEBUG] [2018-09-20 16:52:16] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:52:16] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:53:42] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :Sure, but Linus has been convinced that he's toxic to the Linux community and needs to leave because he hurt people's feelings. They didn't ask for him to change, they asked for him to leave, and he did.
+[DEBUG] [2018-09-20 16:54:17] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:54:17] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:56:18] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:56:18] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:56:34] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i'll be interested to see what happens
+[DEBUG] [2018-09-20 16:56:50] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :As well the rest of the Linux community.
+[DEBUG] [2018-09-20 16:56:58] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :s/we/wi/
+[DEBUG] [2018-09-20 16:56:58] >> 
+:sedbot!sedbot@localhost PRIVMSG #meta :<aewens> As will the rest of the Linux community.
+[DEBUG] [2018-09-20 16:58:19] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 16:58:19] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 16:59:17] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i'd like to see the same no-compromise linus minus personal attacks
+[DEBUG] [2018-09-20 17:00:08] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :this is dumb, i gotta get a new permit issued that is a "Real ID"
+[DEBUG] [2018-09-20 17:00:20] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:00:20] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:00:28] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :literally the only difference between the two is one says "not for federal purposes" and the other has a star
+[DEBUG] [2018-09-20 17:00:57] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :and it HAS to be done at the DMV...
+[DEBUG] [2018-09-20 17:01:25] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams PRIVMSG #meta :big screech
+[DEBUG] [2018-09-20 17:01:32] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :Welcome to beauracracy
+[DEBUG] [2018-09-20 17:02:16] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :i literally just had one issued once i turned 18. apparently now i can drive after 8pm but can't board a domestic flight without a passport lol
+[DEBUG] [2018-09-20 17:02:21] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:02:21] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:02:59] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :ben: Personally, I kinda liked grabbing some popcorn and watching Linus go all-out on someone. It was one of the fun things in Linux culture to watch. Can we still have him scream at people but just not attack who they are? xD
+[DEBUG] [2018-09-20 17:04:22] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:04:22] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:06:23] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:06:23] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:08:01] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :aewens: that's exactly what i'd like to see
+[DEBUG] [2018-09-20 17:08:21] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :cause the commit isn't a personal thing
+[DEBUG] [2018-09-20 17:08:24] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:08:24] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:10:25] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:10:25] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:12:26] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:12:26] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:14:08] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :Well, we can only wait and hope he comes back to do that.
+[DEBUG] [2018-09-20 17:14:27] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:14:27] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:15:12] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :https://bhh.sh/pub/photos/italy/
+[DEBUG] [2018-09-20 17:15:12] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :Index of /pub/photos/italy/ 400 Sorry, but your link already
+[DEBUG] [2018-09-20 17:16:28] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:16:28] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:17:19] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :butt stuff
+[DEBUG] [2018-09-20 17:18:29] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:18:29] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:20:30] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:20:30] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:21:00] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :ben why the fuck did you climb a wall
+[DEBUG] [2018-09-20 17:22:31] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:22:31] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:24:32] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:24:32] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:26:33] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:26:33] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:28:34] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:28:34] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:30:35] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:30:35] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:31:06] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :To honor his favorite president of course!
+[DEBUG] [2018-09-20 17:32:36] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:32:36] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:34:37] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:34:37] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:36:03] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :arne: to get out of the airbnb
+[DEBUG] [2018-09-20 17:36:06] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :https://ben.tild3.org/blog/italy.html
+[DEBUG] [2018-09-20 17:36:07] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :italy https://bhh.sh/16i
+[DEBUG] [2018-09-20 17:36:38] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:36:38] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:36:44] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :we left the keys on the kitchen table, locked the door behind us, and then remembered that the gate needs a key to get out
+[DEBUG] [2018-09-20 17:37:12] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :aewens' comment about Trump made me think of this tweet
+[DEBUG] [2018-09-20 17:37:15] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :https://mobile.twitter.com/KeatonPatti/status/1039889888961880064?s=08
+[DEBUG] [2018-09-20 17:37:17] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :Twitter https://bhh.sh/16j
+[DEBUG] [2018-09-20 17:37:24] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :!summon supercock789 https://bhh.sh/pub/photos/italy/thewall.jpg
+[INFO] [2018-09-20 17:37:24] >> 
+PRIVMSG #meta :ben: You have summoned supercock789
+
+[DEBUG] [2018-09-20 17:37:30] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :FOUR MORE SWAMPS! FOUR MORE SWAMPS!
+[DEBUG] [2018-09-20 17:38:24] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :omfg 
+[DEBUG] [2018-09-20 17:38:26] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :that's incredible
+[DEBUG] [2018-09-20 17:38:38] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :wasn't it still pretty hot in Italy ben?
+[DEBUG] [2018-09-20 17:38:45] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :oh god yeah
+[DEBUG] [2018-09-20 17:38:52] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :it's still far hotter here than I wished it were
+[DEBUG] [2018-09-20 17:38:53] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :85-90 every day
+[DEBUG] [2018-09-20 17:39:05] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :I always say if we go to Italy it'll be in like March or April
+[DEBUG] [2018-09-20 17:39:21] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :as neither mspe nor I have the constitution for heat
+[DEBUG] [2018-09-20 17:39:25] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:39:25] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:39:48] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :I avoid the sun because I'm basically hybrid vampire/albino, and mspe just hates the sun.
+[DEBUG] [2018-09-20 17:39:57] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :maybe october then?
+[DEBUG] [2018-09-20 17:40:04] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :plus you avoid the summer crowds
+[DEBUG] [2018-09-20 17:40:09] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :it was still fuckin nuts
+[DEBUG] [2018-09-20 17:40:14] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :can't get away from the people
+[DEBUG] [2018-09-20 17:40:24] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :really? usually stuff's calmed down here in France in September
+[DEBUG] [2018-09-20 17:40:45] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :with the start of the school year, September is when you start to get good vacation deals
+[DEBUG] [2018-09-20 17:40:56] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :it can still be hot as balls if you're not lucky though
+[DEBUG] [2018-09-20 17:41:01] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :hey who bought pragmatapro I need it and I'm br0ke af
+[DEBUG] [2018-09-20 17:41:03] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :so October is probably better
+[DEBUG] [2018-09-20 17:41:25] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :though in France you also have all saints' vacation the last couple of weeks of October...
+[DEBUG] [2018-09-20 17:41:26] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:41:26] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:41:59] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :yeah i wasn't expecting to see that many people still there
+[DEBUG] [2018-09-20 17:42:14] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :all saints' vacation?
+[DEBUG] [2018-09-20 17:43:01] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :so all saints day, Nov. 1st
+[DEBUG] [2018-09-20 17:43:13] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :the French schools have 2 weeks off around it
+[DEBUG] [2018-09-20 17:43:17] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :huh
+[DEBUG] [2018-09-20 17:43:21] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :I guess you could just call it fall vacation
+[DEBUG] [2018-09-20 17:43:27] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:43:27] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:43:36] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :never heard of that day
+[DEBUG] [2018-09-20 17:43:39] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :lol
+[DEBUG] [2018-09-20 17:43:41] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :they have vacation in October, December, Feb. and April
+[DEBUG] [2018-09-20 17:44:12] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :ah. I forget that not everyone grew up Catholic.
+[DEBUG] [2018-09-20 17:44:23] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :One of many days we were forced to go to church.
+[DEBUG] [2018-09-20 17:44:46] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :*President Trump forces himself on a podium* Trump: I just had a phone call with the economy. Jobs poured out of the phone. Great jobs. Tall jobs. Steve Jobs. All at Kinko's
+[DEBUG] [2018-09-20 17:44:47] >> 
+:web-user!ytweb-user@yourtilde.com JOIN :#meta
+[DEBUG] [2018-09-20 17:45:06] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :kumquat: That tweet was hilarious xD
+[DEBUG] [2018-09-20 17:45:11] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :Also, hey web-user 
+[DEBUG] [2018-09-20 17:45:17] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :aewens - the entire page is just insanity
+[DEBUG] [2018-09-20 17:45:26] >> 
+:web-user!ytweb-user@yourtilde.com PRIVMSG #meta :it's ben
+[DEBUG] [2018-09-20 17:45:28] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:45:28] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:45:32] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :"Arby's food is fine to eat" as a flag
+[DEBUG] [2018-09-20 17:45:47] >> 
+:web-user!ytweb-user@yourtilde.com PRIVMSG #meta :someone was complaining about thelounge not being easily embeddable in an iframe
+[DEBUG] [2018-09-20 17:46:03] >> 
+:web-user!ytweb-user@yourtilde.com PRIVMSG #meta :so i was checking how deepend did the webchat for yourtilde.com
+[DEBUG] [2018-09-20 17:46:08] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :"Foreign powers cheat us! Canada steals our milk. China steals out milk. We only had one glass of milk left! Obama drank it. Not fair." xD
+[DEBUG] [2018-09-20 17:46:21] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :someone needs to hire that bot immediately.
+[DEBUG] [2018-09-20 17:46:39] >> 
+:web-user!ytweb-user@yourtilde.com PRIVMSG #meta :would definitely do a better job than that nutjob
+[DEBUG] [2018-09-20 17:46:42] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :I would watch whatever movie it wrote.
+[DEBUG] [2018-09-20 17:46:44] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta : ut
+[DEBUG] [2018-09-20 17:46:59] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :lmao
+[DEBUG] [2018-09-20 17:47:04] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :arne: This https://bhh.sh/16j 
+[DEBUG] [2018-09-20 17:47:05] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :Twitter 
+[DEBUG] [2018-09-20 17:47:29] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:47:29] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:48:03] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :waa I need 199 euros cuz I want to buy another font
+[DEBUG] [2018-09-20 17:48:44] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :ACTION googles how to get free moneyç
+[DEBUG] [2018-09-20 17:49:23] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :jobs are a pretty good way to convert your time into money
+[DEBUG] [2018-09-20 17:49:24] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :I would suggest the midnight cowboy method
+[DEBUG] [2018-09-20 17:49:30] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:49:30] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:49:46] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :deepend: any reason you're using shout over thelounge?
+[DEBUG] [2018-09-20 17:49:59] >> 
+:web-user!ytweb-user@yourtilde.com PART #meta :"undefined"
+[DEBUG] [2018-09-20 17:51:24] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :jobs are just for the uncreative plebs
+[DEBUG] [2018-09-20 17:51:31] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:51:31] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:51:35] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :owo
+[DEBUG] [2018-09-20 17:53:32] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:53:32] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:55:33] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:55:33] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:57:16] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :that's why I make all my money selling junk via MLMs
+[DEBUG] [2018-09-20 17:57:26] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :mspe's favorite companies
+[DEBUG] [2018-09-20 17:57:34] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:57:34] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:59:35] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 17:59:35] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 17:59:37] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :lmao
+[DEBUG] [2018-09-20 17:59:40] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :nice
+[DEBUG] [2018-09-20 18:01:36] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:01:36] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:03:37] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:03:37] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:05:38] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:05:38] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:07:39] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:07:39] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:09:40] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:09:40] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:11:41] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:11:41] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:13:42] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:13:42] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:14:18] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :enough blatant lies. I'm obviously not as talented as the bot.
+[DEBUG] [2018-09-20 18:14:24] >> 
+:kumquat!kumquat@37.168.134.224 PRIVMSG #meta :Good night!
+[DEBUG] [2018-09-20 18:15:43] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:15:43] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:17:44] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:17:44] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:18:40] >> 
+:kumquat!kumquat@37.168.134.224 QUIT :Ping timeout: 121 seconds
+[DEBUG] [2018-09-20 18:19:16] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :heh
+[DEBUG] [2018-09-20 18:19:34] >> 
+:cdmnky!cdmnky@tilde.team PRIVMSG #meta :rip
+[DEBUG] [2018-09-20 18:19:45] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:19:45] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:21:16] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams QUIT :Ping timeout: 121 seconds
+[DEBUG] [2018-09-20 18:21:46] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:21:46] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:22:29] >> 
+:mspe!mspe@37.168.3.162 QUIT :quit: Leaving
+[DEBUG] [2018-09-20 18:23:47] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:23:47] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:25:48] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:25:48] >> 
+PONG :team.tilde.chat
+
+[INFO] [2018-09-20 18:27:42] >> 
+PRIVMSG #team :[bbj] 'audit log' (auditbot) : log date 2018-09-20 18:27:41: ben - "installed xonsh. it's available to use as a login shell" <https://bbj.tilde.team/index.php?thread_id=d12a52f08c4511e89113901b0efcebe0>
+
+[DEBUG] [2018-09-20 18:28:22] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :https://xon.sh/tutorial.html
+[DEBUG] [2018-09-20 18:28:24] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :Tutorial &#8212; xonsh 0.7.9 documentation 
+[DEBUG] [2018-09-20 18:29:43] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:29:43] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:30:07] >> 
+:aewens!aewens@rightful.heir.to.chaos PRIVMSG #meta :I'm going to head out to commute home. If you don't hear back from me for a few days, it's because tomorrow I'm attending a funeral a few hours away and this weekend I'm helping people move their furniture to their new place, but I'll definitely be back by Monday.
+[DEBUG] [2018-09-20 18:30:24] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :travel safe and condolences at the funeral
+[DEBUG] [2018-09-20 18:31:44] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:31:44] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:33:45] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:33:45] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:35:46] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:35:46] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:37:47] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:37:47] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:39:48] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:39:48] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:41:49] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:41:49] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:43:50] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:43:50] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:45:51] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:45:51] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:47:52] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:47:52] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:49:53] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:49:53] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:51:54] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:51:54] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:53:55] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:53:55] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:55:56] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:55:56] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:57:57] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:57:57] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 18:59:58] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 18:59:58] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:01:59] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:01:59] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:04:00] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:04:00] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:06:01] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:06:01] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:08:02] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:08:02] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:10:03] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:10:03] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:12:04] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:12:04] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:14:05] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:14:05] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:16:06] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:16:06] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:18:07] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:18:07] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:20:08] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:20:08] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:22:09] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:22:09] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:24:10] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:24:10] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:26:11] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:26:11] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:28:12] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:28:12] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:30:13] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:30:13] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:32:14] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:32:14] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:34:15] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:34:15] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:36:16] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:36:16] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:38:17] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:38:17] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:40:18] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:40:18] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:42:19] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:42:19] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:44:20] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:44:20] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:46:21] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:46:21] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:48:22] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:48:22] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:50:23] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:50:23] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:52:24] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:52:24] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:54:25] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:54:25] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:56:26] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:56:26] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 19:58:27] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 19:58:27] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:00:28] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:00:28] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:02:29] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:02:29] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:04:30] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:04:30] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:06:31] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:06:31] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:08:32] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:08:32] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:10:33] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:10:33] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:12:34] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:12:34] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:14:35] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:14:35] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:16:36] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:16:36] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:18:37] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:18:37] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:20:38] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:20:38] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:22:39] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:22:39] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:24:40] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:24:40] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:26:41] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:26:41] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:28:42] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:28:42] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:30:43] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:30:43] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:32:44] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:32:44] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:34:45] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:34:45] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:36:46] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:36:46] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:38:47] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:38:47] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:40:48] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:40:48] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:42:49] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:42:49] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:44:19] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams JOIN :#meta
+[DEBUG] [2018-09-20 20:44:19] >> 
+:ChanServ!services@services.tilde.chat MODE #meta +o virtual
+[DEBUG] [2018-09-20 20:44:50] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:44:50] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:46:51] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:46:51] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:48:52] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:48:52] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:50:53] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:50:53] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:52:54] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:52:54] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:54:55] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:54:55] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:56:56] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:56:56] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 20:58:57] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 20:58:57] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:00:58] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:00:58] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:02:59] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:02:59] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:05:00] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:05:00] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:07:01] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:07:01] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:09:02] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:09:02] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:11:03] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:11:03] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:13:04] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:13:04] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:15:05] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:15:05] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:17:06] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:17:06] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:19:07] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:19:07] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:21:08] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:21:08] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:23:09] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:23:09] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:25:10] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:25:10] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:26:54] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :hey all
+[DEBUG] [2018-09-20 21:27:11] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:27:11] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:27:21] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :ben: did you reboot thelounge and/or the ircd?
+[DEBUG] [2018-09-20 21:28:02] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :lol
+[DEBUG] [2018-09-20 21:28:05] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i knew you would ask
+[DEBUG] [2018-09-20 21:28:19] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :how?
+[DEBUG] [2018-09-20 21:28:33] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :the first time was some kind of OOM error
+[DEBUG] [2018-09-20 21:28:46] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :and the second time was an update from pre v8 to rc1
+[DEBUG] [2018-09-20 21:28:55] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :ahh right
+[DEBUG] [2018-09-20 21:28:59] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :you sneaky bugger
+[DEBUG] [2018-09-20 21:29:08] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i don't know how/why that's sneaky
+[DEBUG] [2018-09-20 21:29:12] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:29:12] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:29:46] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :it was done while i was sleepin
+[DEBUG] [2018-09-20 21:29:56] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :most likely
+[DEBUG] [2018-09-20 21:30:41] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :i honestly didnt think youd be online
+[DEBUG] [2018-09-20 21:30:56] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :and quick note: school holidays as of yesterday! ;D
+[DEBUG] [2018-09-20 21:31:01] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :s/;/:
+[DEBUG] [2018-09-20 21:31:01] >> 
+:sedbot!sedbot@localhost PRIVMSG #meta :<brendantcc_lounge> and quick note: school holidays as of yesterday! :D
+[DEBUG] [2018-09-20 21:31:13] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:31:13] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:32:11] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :oh and i got myself setup on Keybase
+[DEBUG] [2018-09-20 21:32:51] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :and added ya
+[DEBUG] [2018-09-20 21:33:14] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:33:14] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:35:15] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:35:15] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:35:54] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :it's 9:35 pm
+[DEBUG] [2018-09-20 21:35:58] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :and i'm home now
+[DEBUG] [2018-09-20 21:36:03] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :ahh
+[DEBUG] [2018-09-20 21:36:10] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :you never said you sneaky bugger
+[DEBUG] [2018-09-20 21:36:18] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :why do you get so upset when there are updates
+[DEBUG] [2018-09-20 21:36:24] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i don't get it
+[DEBUG] [2018-09-20 21:36:38] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :not even i know, ben. not even i know.
+[DEBUG] [2018-09-20 21:37:01] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :it's like you're angry about it
+[DEBUG] [2018-09-20 21:37:16] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:37:16] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:39:17] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:39:17] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:40:41] >> 
+:slipyx!slip@to1.hashbang.sh PRIVMSG #meta :change aint good, leon
+[DEBUG] [2018-09-20 21:41:17] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i guess
+[DEBUG] [2018-09-20 21:41:18] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:41:18] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:41:25] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :but sometimes it is
+[DEBUG] [2018-09-20 21:43:19] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:43:19] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:44:11] >> 
+:brendantcc!brendantcc@2a01:4f8:231:24f::2 PRIVMSG #meta :dammit thelounge connection konked out
+[DEBUG] [2018-09-20 21:44:54] >> 
+:brendantcc!brendantcc@2a01:4f8:231:24f::2 PRIVMSG #meta :teh friggin wifi cables must have been knocked or something, cause Chrome is failing to connect to shit
+[DEBUG] [2018-09-20 21:44:55] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :still connected on this end
+[DEBUG] [2018-09-20 21:45:02] >> 
+:brendantcc!brendantcc@2a01:4f8:231:24f::2 PRIVMSG #meta :not even GOOGLE.
+[DEBUG] [2018-09-20 21:45:20] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:45:20] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:45:21] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :PEBKAC ?
+[DEBUG] [2018-09-20 21:46:05] >> 
+:brendantcc!brendantcc@2a01:4f8:231:24f::2 PRIVMSG #meta :maybe cloudflare's 1. is doen
+[DEBUG] [2018-09-20 21:46:10] >> 
+:brendantcc!brendantcc@2a01:4f8:231:24f::2 PRIVMSG #meta :s/doen/down
+[DEBUG] [2018-09-20 21:46:11] >> 
+:sedbot!sedbot@localhost PRIVMSG #meta :<brendantcc> maybe cloudflare's 1. is down
+[DEBUG] [2018-09-20 21:46:41] >> 
+:brendantcc!brendantcc@2a01:4f8:231:24f::2 PRIVMSG #meta :i have my laptop configured for it
+[DEBUG] [2018-09-20 21:46:53] >> 
+:brendantcc!brendantcc@2a01:4f8:231:24f::2 PRIVMSG #meta :but my roblox connection is still up
+[DEBUG] [2018-09-20 21:47:21] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:47:21] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:47:24] >> 
+:brendantcc!brendantcc@2a01:4f8:231:24f::2 PRIVMSG #meta :whats tilde.team's ip again
+[DEBUG] [2018-09-20 21:47:30] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :1.1.1.1?
+[DEBUG] [2018-09-20 21:47:33] >> 
+:brendantcc!brendantcc@2a01:4f8:231:24f::2 PRIVMSG #meta :ye
+[DEBUG] [2018-09-20 21:47:36] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :195.201.242.48
+[DEBUG] [2018-09-20 21:48:12] >> 
+:brendantcc!brendantcc@2a01:4f8:231:24f::2 PRIVMSG #meta :okay this is straight up weird
+[DEBUG] [2018-09-20 21:48:37] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :if you go to the ip it redirects you
+[DEBUG] [2018-09-20 21:49:22] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:49:22] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:49:26] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams PRIVMSG #meta :aaaaa
+[DEBUG] [2018-09-20 21:49:41] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :bbbbb
+[DEBUG] [2018-09-20 21:49:51] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams PRIVMSG #meta :ccccccc
+[DEBUG] [2018-09-20 21:49:56] >> 
+:brendantcc!brendantcc@2a01:4f8:231:24f::2 PRIVMSG #meta :ddddd
+[DEBUG] [2018-09-20 21:49:58] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :too many
+[DEBUG] [2018-09-20 21:49:59] >> 
+:brendantcc!brendantcc@2a01:4f8:231:24f::2 PRIVMSG #meta :eeeee
+[DEBUG] [2018-09-20 21:50:01] >> 
+:brendantcc!brendantcc@2a01:4f8:231:24f::2 PRIVMSG #meta :lol
+[DEBUG] [2018-09-20 21:50:05] >> 
+:slipyx!slip@to1.hashbang.sh PRIVMSG #meta :ffffff
+[DEBUG] [2018-09-20 21:50:08] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams PRIVMSG #meta :gggggg
+[DEBUG] [2018-09-20 21:50:09] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :you broke it virtual 
+[DEBUG] [2018-09-20 21:50:13] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :h
+[DEBUG] [2018-09-20 21:50:13] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams PRIVMSG #meta :oof
+[DEBUG] [2018-09-20 21:50:15] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams PRIVMSG #meta :hhh
+[DEBUG] [2018-09-20 21:50:16] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i
+[DEBUG] [2018-09-20 21:50:18] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :j
+[DEBUG] [2018-09-20 21:50:20] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :k
+[DEBUG] [2018-09-20 21:50:21] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams PRIVMSG #meta :l
+[DEBUG] [2018-09-20 21:50:22] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :l
+[DEBUG] [2018-09-20 21:50:23] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :m
+[DEBUG] [2018-09-20 21:50:25] >> 
+:slipyx!slip@to1.hashbang.sh PRIVMSG #meta : 
+[DEBUG] [2018-09-20 21:50:26] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :n
+[DEBUG] [2018-09-20 21:50:26] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams PRIVMSG #meta :hahahahahahahahahahahaha
+[DEBUG] [2018-09-20 21:50:27] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :o
+[DEBUG] [2018-09-20 21:50:29] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams PRIVMSG #meta : 
+[DEBUG] [2018-09-20 21:50:30] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :p
+[DEBUG] [2018-09-20 21:50:31] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams PRIVMSG #meta : 
+[DEBUG] [2018-09-20 21:50:31] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :q
+[DEBUG] [2018-09-20 21:50:34] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :r
+[DEBUG] [2018-09-20 21:50:35] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :s
+[DEBUG] [2018-09-20 21:50:37] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams PRIVMSG #meta : 
+[DEBUG] [2018-09-20 21:50:37] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :t
+[DEBUG] [2018-09-20 21:50:40] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :u
+[DEBUG] [2018-09-20 21:50:41] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :v
+[DEBUG] [2018-09-20 21:50:43] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams PRIVMSG #meta : 
+[DEBUG] [2018-09-20 21:50:44] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :w
+[DEBUG] [2018-09-20 21:50:45] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :x
+[DEBUG] [2018-09-20 21:50:47] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :y
+[DEBUG] [2018-09-20 21:50:49] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams PRIVMSG #meta : 
+[DEBUG] [2018-09-20 21:50:50] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :z
+[DEBUG] [2018-09-20 21:50:51] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams PRIVMSG #meta : 
+[DEBUG] [2018-09-20 21:50:52] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta : 
+[DEBUG] [2018-09-20 21:50:55] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams PRIVMSG #meta : 
+[DEBUG] [2018-09-20 21:51:05] >> 
+:slipyx!slip@to1.hashbang.sh PRIVMSG #meta :while(*c != '\0') setChar(FONTINDEX+(*c-32))
+[DEBUG] [2018-09-20 21:51:07] >> 
+:virtual!virtual@super.kawaii.girlfriend.of.your.dreams PRIVMSG #meta :thanos car
+[DEBUG] [2018-09-20 21:51:23] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:51:23] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:52:45] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :owo
+[DEBUG] [2018-09-20 21:53:24] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:53:24] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:55:14] >> 
+:brendantcc!brendantcc@2a01:4f8:231:24f::2 PRIVMSG #meta :suddenly pineapples :P
+[DEBUG] [2018-09-20 21:55:25] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:55:25] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:55:55] >> 
+:slipyx!slip@to1.hashbang.sh PRIVMSG #meta :damn space bastard killed my pineapples
+[DEBUG] [2018-09-20 21:56:13] >> 
+:brendantcc!brendantcc@2a01:4f8:231:24f::2 PRIVMSG #meta :ahhh shit my laptop's playing up
+[DEBUG] [2018-09-20 21:56:57] >> 
+:slipyx!slip@to1.hashbang.sh PRIVMSG #meta :play it up fam
+[DEBUG] [2018-09-20 21:57:24] >> 
+:brendantcc!brendantcc@2a01:4f8:231:24f::2 PRIVMSG #meta :gonna have to reboot - FUK
+[DEBUG] [2018-09-20 21:57:26] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:57:26] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 21:59:27] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 21:59:27] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:01:28] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:01:28] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:03:29] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:03:29] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:05:30] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:05:30] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:05:41] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :i think my wifi card must've failed earlier - dammit
+[DEBUG] [2018-09-20 22:06:05] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :whelp its fine now
+[DEBUG] [2018-09-20 22:06:29] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :oh and my sound failed to
+[DEBUG] [2018-09-20 22:07:31] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:07:31] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:09:32] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:09:32] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:11:33] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:11:33] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:13:34] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:13:34] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:15:35] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:15:35] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:16:16] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :dang it i just want to test Keybase ben
+[DEBUG] [2018-09-20 22:17:36] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:17:36] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:19:37] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:19:37] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:21:38] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:21:38] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:23:16] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :hiya
+[DEBUG] [2018-09-20 22:23:39] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:23:39] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:23:47] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :HIYA DO YA HAVE KEYBASE? lol
+[DEBUG] [2018-09-20 22:25:40] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:25:40] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:27:41] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :ahem
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:27:41] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:27:45] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :sorry about that tom
+[DEBUG] [2018-09-20 22:27:52] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :s/tom/tomasino
+[DEBUG] [2018-09-20 22:27:52] >> 
+:sedbot!sedbot@localhost PRIVMSG #meta :<brendantcc_lounge> sorry about that tomasino
+[DEBUG] [2018-09-20 22:28:15] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :what's new?
+[DEBUG] [2018-09-20 22:28:18] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :i just finished my radio show
+[DEBUG] [2018-09-20 22:28:27] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta ::O
+[DEBUG] [2018-09-20 22:28:29] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :https://anonradio.net/2018/09/21/choose-your-own-adventure-ep-002-2018-09-20/
+[DEBUG] [2018-09-20 22:28:31] >> 
+:TildeBot!tildebot@yourtilde.com PRIVMSG #meta :Choose Your Own Adventure &#8211; Ep 002 &#8211; 2018/09/20 | // aNONradio // https://bhh.sh/16k
+[DEBUG] [2018-09-20 22:29:42] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:29:42] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:31:43] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:31:43] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:33:22] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :uhm tomasino
+[DEBUG] [2018-09-20 22:33:27] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :how do i join sdf
+[DEBUG] [2018-09-20 22:33:27] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :yeas?
+[DEBUG] [2018-09-20 22:33:43] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :oh, you just telnet to sdf and login to create an account
+[DEBUG] [2018-09-20 22:33:44] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:33:44] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:34:05] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :<init telnet connection>
+[DEBUG] [2018-09-20 22:34:07] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :ssh://new@sdf.org
+[DEBUG] [2018-09-20 22:34:09] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :or ssh
+[DEBUG] [2018-09-20 22:34:12] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :that'll do it
+[DEBUG] [2018-09-20 22:34:22] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :once you make your account, let me know the name and i'll validate you
+[DEBUG] [2018-09-20 22:34:24] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :save you a couple days
+[DEBUG] [2018-09-20 22:35:45] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:35:45] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:37:46] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:37:46] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:39:47] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:39:47] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:40:24] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :my account: brendantcc
+[DEBUG] [2018-09-20 22:41:20] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :validated
+[DEBUG] [2018-09-20 22:41:24] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :give it 15 min to process
+[DEBUG] [2018-09-20 22:41:24] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :thanksss
+[DEBUG] [2018-09-20 22:41:40] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :the system just updated to the latest RC for netBSD today, so expect things to be unstable for the next couple weeks
+[DEBUG] [2018-09-20 22:41:47] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :copy that
+[DEBUG] [2018-09-20 22:41:48] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:41:48] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:42:03] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :and enjoy!
+[DEBUG] [2018-09-20 22:42:07] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta ::D
+[DEBUG] [2018-09-20 22:42:20] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :i squat in #gopher over on irc.sdf.org
+[DEBUG] [2018-09-20 22:43:43] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :copy dat
+[DEBUG] [2018-09-20 22:43:49] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:43:49] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:45:50] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:45:50] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:47:51] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:47:51] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:48:04] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :again - thanks man
+[DEBUG] [2018-09-20 22:48:11] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :NP!
+[DEBUG] [2018-09-20 22:48:13] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :off to bed with me
+[DEBUG] [2018-09-20 22:48:16] >> 
+:tomasino!tomasino@gopher.black PRIVMSG #meta :night!
+[DEBUG] [2018-09-20 22:48:22] >> 
+:brendantcc_lounge!brendantcc@tilde.team PRIVMSG #meta :night mate
+[DEBUG] [2018-09-20 22:49:52] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:49:52] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:51:53] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:51:53] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:53:54] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:53:54] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:55:55] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:55:55] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:56:45] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :nini
+[DEBUG] [2018-09-20 22:57:56] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:57:56] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 22:59:57] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 22:59:57] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:01:58] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:01:58] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:03:59] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:03:59] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:06:00] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:06:00] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:08:01] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:08:01] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:10:02] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:10:02] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:12:03] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:12:03] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:14:04] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:14:04] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:16:05] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:16:05] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:16:39] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :poll: if you had to tell someone a brief description about me, what would u say
+[DEBUG] [2018-09-20 23:18:06] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:18:06] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:20:07] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:20:07] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:22:08] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:22:08] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:22:19] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :arne: font dude
+[DEBUG] [2018-09-20 23:22:38] >> 
+:slipyx!slip@to1.hashbang.sh PRIVMSG #meta :arne: 15 year old swedish web dev
+[DEBUG] [2018-09-20 23:23:16] >> 
+:slipyx!slip@to1.hashbang.sh PRIVMSG #meta :(also may or may not be gay)
+[DEBUG] [2018-09-20 23:24:09] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:24:09] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:25:11] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :got a really good one: "dark web onion boi, aka chileno el trolazo."
+[DEBUG] [2018-09-20 23:26:10] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:26:10] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:28:11] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:28:11] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:28:49] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :owo
+[DEBUG] [2018-09-20 23:29:40] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :another good one: "will use COBOL to make their wiki"
+[DEBUG] [2018-09-20 23:30:06] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :"rewrites every piece of software for fun"
+[DEBUG] [2018-09-20 23:30:12] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:30:12] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:31:08] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :anre - "sucks less"
+[DEBUG] [2018-09-20 23:31:12] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :.org
+[DEBUG] [2018-09-20 23:31:55] >> 
+:ChanServ!services@services.tilde.chat TOPIC #meta :tildeverse general chat: https://tildeverse.org ~ ircnet: https://tilde.chat
+[DEBUG] [2018-09-20 23:32:13] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:32:13] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:32:15] >> 
+:slipyx!slip@to1.hashbang.sh PRIVMSG #meta :.directory
+[DEBUG] [2018-09-20 23:32:31] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i wonder how that even ended up as a tld
+[DEBUG] [2018-09-20 23:32:47] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :if .directory can be a tld why not .tilde
+[DEBUG] [2018-09-20 23:34:14] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:34:14] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:34:52] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :thats a mood
+[DEBUG] [2018-09-20 23:35:07] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :what
+[DEBUG] [2018-09-20 23:35:17] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :"if .directory can be a tld why not .tilde"
+[DEBUG] [2018-09-20 23:35:25] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :heh
+[DEBUG] [2018-09-20 23:35:37] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :where's my 1...diriecotor account
+[DEBUG] [2018-09-20 23:35:44] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :pls thx
+[DEBUG] [2018-09-20 23:36:00] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :òwó ok
+[DEBUG] [2018-09-20 23:36:07] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :my pubkey is gpg --export-ssh-key ben@tilde.team
+[DEBUG] [2018-09-20 23:36:15] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:36:15] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:36:31] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :i dont add sshkeys
+[DEBUG] [2018-09-20 23:36:34] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :cuz im lazy
+[DEBUG] [2018-09-20 23:36:37] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :sorry
+[DEBUG] [2018-09-20 23:36:45] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :wót
+[DEBUG] [2018-09-20 23:38:16] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:38:16] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:40:17] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:40:17] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:41:37] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :wòt
+[DEBUG] [2018-09-20 23:41:47] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :ónò
+[DEBUG] [2018-09-20 23:42:01] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :arne: what's with curl -IL tildegit.org
+[DEBUG] [2018-09-20 23:42:12] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :what
+[DEBUG] [2018-09-20 23:42:18] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:42:18] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:42:25] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :ah
+[DEBUG] [2018-09-20 23:42:31] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :the SSL CA problem
+[DEBUG] [2018-09-20 23:42:32] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :also github.com
+[DEBUG] [2018-09-20 23:42:38] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :i just want my dotfiles
+[DEBUG] [2018-09-20 23:42:39] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :to be honest, i have no fucking idea
+[DEBUG] [2018-09-20 23:43:00] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :youll have to add to ur gitconfig to not httpsify
+[DEBUG] [2018-09-20 23:43:11] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :wth
+[DEBUG] [2018-09-20 23:43:11] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :im gonna be looking into it
+[DEBUG] [2018-09-20 23:43:25] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :eh i have fish shell that's plenty
+[DEBUG] [2018-09-20 23:43:57] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :fixed
+[DEBUG] [2018-09-20 23:44:01] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :had to run "sudo yum reinstall ca-certificates openssl"
+[DEBUG] [2018-09-20 23:44:11] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :huh
+[DEBUG] [2018-09-20 23:44:17] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :it worked i guess
+[DEBUG] [2018-09-20 23:44:19] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:44:19] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:46:20] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:46:20] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:48:21] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:48:21] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:49:24] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :why doesn't it know tmux-256color terminal type
+[DEBUG] [2018-09-20 23:49:37] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :oh wow outdated kernel
+[DEBUG] [2018-09-20 23:50:22] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:50:22] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:50:42] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :screen-256color seems to work
+[DEBUG] [2018-09-20 23:50:42] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :owo?
+[DEBUG] [2018-09-20 23:51:54] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :yeah idk
+[DEBUG] [2018-09-20 23:52:01] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :export TERM=tmux-256color
+[DEBUG] [2018-09-20 23:52:03] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :try it
+[DEBUG] [2018-09-20 23:52:23] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:52:23] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:52:23] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :were you trying to set up postfix earlier?
+[DEBUG] [2018-09-20 23:52:52] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :works for me
+[DEBUG] [2018-09-20 23:53:00] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :oh it doesnt
+[DEBUG] [2018-09-20 23:53:27] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :yup
+[DEBUG] [2018-09-20 23:53:37] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :gonna try to update kernel
+[DEBUG] [2018-09-20 23:53:40] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :OH i know why
+[DEBUG] [2018-09-20 23:53:46] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :i compiled tmux from source
+[DEBUG] [2018-09-20 23:53:52] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :forgot to install term inco
+[DEBUG] [2018-09-20 23:53:54] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :ytho
+[DEBUG] [2018-09-20 23:53:58] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :s/inco/info
+[DEBUG] [2018-09-20 23:53:58] >> 
+:sedbot!sedbot@localhost PRIVMSG #meta :<arne> forgot to install term info
+[DEBUG] [2018-09-20 23:54:07] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :cuz the repo version was old
+[DEBUG] [2018-09-20 23:54:22] >> 
+:arne!arne@arnes.cozy.tilde PRIVMSG #meta :was like 1.7
+[DEBUG] [2018-09-20 23:54:24] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:54:24] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:55:02] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :hmmst
+[DEBUG] [2018-09-20 23:55:13] >> 
+:slipyx!slip@to1.hashbang.sh PRIVMSG #meta :and i thought debian has outdated packags
+[DEBUG] [2018-09-20 23:55:37] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :srsly
+[DEBUG] [2018-09-20 23:55:40] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :that's nutso
+[DEBUG] [2018-09-20 23:55:56] >> 
+:ben!ben@oper.tilde.chat PRIVMSG #meta :well i mean stretch just came out last year
+[DEBUG] [2018-09-20 23:56:25] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:56:25] >> 
+PONG :team.tilde.chat
+
+[DEBUG] [2018-09-20 23:58:26] >> 
+PING :team.tilde.chat
+[INFO] [2018-09-20 23:58:26] >> 
+PONG :team.tilde.chat
+

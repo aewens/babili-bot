@@ -2,10 +2,16 @@ import re
 import operator
 
 def hmm(self, name, source, response):
+    check = response.lower().strip()
+
     botnick = self.bot.botnick
     pattern = re.compile("hm+")
-    matches = re.findall(pattern, response)
-    score = len(matches)
+    matches = re.findall(pattern, check)
+    maximum = 10
+    score = len(matches) if len(matches) <= maximum else maximum
+
+    if len(matches) > 1 and len("".join(re.split(pattern, check))) == 0:
+        return
 
     if name not in self.bot.memories["users"]:
         self.bot.memories["users"][name] = dict()

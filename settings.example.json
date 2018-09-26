@@ -1,5 +1,8 @@
 {
+    "botnick": "",
     "password": "",
     "email": "",
-    "confirm": ""
+    "confirm": "",
+    "author": "",
+    "extras": {}
 }

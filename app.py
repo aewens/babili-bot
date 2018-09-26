@@ -1,12 +1,30 @@
 #!/usr/bin/env python3
 
+from argparse import ArgumentParser
 from os.path import dirname, realpath
 
 from bot import Bot, Tasks, Responses
 from actions import actions
 from coroutines import coroutines
 
-debug = False
+parser = ArgumentParser(description="A meta bot for ~team")
+parser.add_argument(
+    "-c", 
+    "--config", 
+    dest="config",
+    default="settings.json", 
+    help="Load config file"
+)
+parser.add_argument(
+    "-d",
+    "--debug",
+    dest="debug",
+    action="store_true",
+    help="Runs in debug mode"
+)
+arguments = parser.parse_args()
+
+debug = arguments.debug
 kingme = [] if debug else ["#chaos"]
 channels = ["#bots", "#insane"] 
 if not debug:
@@ -17,7 +35,7 @@ if not debug:
         "#tildeverse"
     ])
 
-bot = Bot("127.0.0.1", 6667, "BabiliBot", channels)
+bot = Bot("127.0.0.1", 6667, channels)
 responses = Responses(bot)
 tasks = Tasks(bot)
 
@@ -76,7 +94,7 @@ def handle_message(name, source, response):
 
 if __name__ == "__main__":
     bot.tasks = tasks
-    bot.start(dirname(realpath(__file__)), {
+    bot.start(arguments.config, dirname(realpath(__file__)), {
         "pm": handle_pm,
         "mode": handle_mode,
         "invite": handle_invite,

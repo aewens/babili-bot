@@ -2,13 +2,21 @@ import re
 import json
 import socket
 import os.path
+import logging
+from logging.handlers import TimedRotatingFileHandler
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="[%(levelname)s] [%(asctime)s] >> \n%(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S"
+)
 
 class Bot:
-    def __init__(self, server, port, botnick, channels):
+    def __init__(self, server, port, channels):
         self.ircsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.logger = logging.getLogger("")
         self.server = server
         self.port = port
-        self.botnick = botnick
         self.channels = channels
         self.running = True
         
@@ -16,18 +24,33 @@ class Bot:
         self.places = list()
         self.tasks = None
         self.author = ""
+        self.botnick = ""
 
         self.recv_size = 2048
         self.splitter = "\n\r"
 
     def send(self, message, *args):
         response = message.format(*args) + "\n"
+        password = self.settings.get("password", None)
+
+        if password is not None:
+            self.logger.info(response.replace(password, "*" * len(password)))
+        else:
+            self.logger.info(response)
+
         print("DEBUG: ", response)
         self.ircsock.send(response.encode())
 
     def send_message(self, target, message, *args):
         msg = message.format(*args)
         response = "PRIVMSG {0} :{1}".format(target, msg) + "\n"
+        password = self.settings.get("password", None)
+
+        if password is not None:
+            self.logger.info(response.replace(password, "*" * len(password)))
+        else:
+            self.logger.info(response)
+
         print("DEBUG: ", response)
         self.ircsock.send(response.encode())
 
@@ -44,9 +67,15 @@ class Bot:
             message = self.ircsock.recv(self.recv_size).decode()
             message = message.strip(self.splitter)
             print(message)
+            self.logger.debug(message)
 
-        user_list = "= {} :".format(chan)
-        raw_users = message.split(user_list)[1].split(" \r\n")[0].split(" ")
+        list_pattern = re.compile("[@=] {} :".format(chan))
+        user_listing = re.split(list_pattern, message)
+        if len(user_listing) < 2:
+            print("DEBUG: Skipping adding users from {}".format(chan))
+            return
+
+        raw_users = user_listing[1].split(" \r\n")[0].split(" ")
         prefix_filter = lambda u: u[1:] if "~" in u or "@" in u else u
         users = list(filter(prefix_filter, raw_users))
         remember = self.memories["users"]
@@ -97,9 +126,9 @@ class Bot:
         return channel, name
 
     def handle_kick(self, message):
-        regex = "KICK #\S+ {} :".format(self.botnick)
-        before, kicker = re.split(regex, message)
-        return kicker
+        before, after = message.split("KICK ", 1)
+        name = self.get_name(before)
+        return name
 
     def handle_join(self, message):
         before, after = message.split("JOIN ", 1)
@@ -136,7 +165,8 @@ class Bot:
 
     def load_settings(self, location):
         set_vars = [
-            "author"
+            "author",
+            "botnick"
         ]
 
         path = "{}/{}".format(self.location, location)
@@ -151,18 +181,26 @@ class Bot:
         self.running = False
         self.send("QUIT")
 
-    def start(self, location, callback):
+    def start(self, config, location, callback):
         message = ""
         registered = False
         confirmed = True
 
+        self.location = location
+        self.load_settings(config)
+        self.load_memories("data/memories.json")
+
+        logfile = "{}/logs/{}.log".format(self.location, self.botnick)
+        logfmt = "[%(levelname)s] [%(asctime)s] >> \n%(message)s"
+        datefmt = "%Y-%m-%d %H:%M:%S"
+        logger = TimedRotatingFileHandler(logfile, "midnight", 1)
+        logger.setLevel(logging.DEBUG)
+        logger.setFormatter(logging.Formatter(logfmt, datefmt))
+        self.logger.addHandler(logger)
+
         self.ircsock.connect((self.server, self.port))
         self.send("USER {0} {0} {0} {0}", self.botnick)
         self.send("NICK {0}", self.botnick)
-
-        self.location = location
-        self.load_settings("settings.json")
-        self.load_memories("data/memories.json")
 
         password = self.settings["password"] or ""
         confirm = self.settings["confirm"] or ""
@@ -179,6 +217,7 @@ class Bot:
             message = self.ircsock.recv(self.recv_size).decode()
             message = message.strip(self.splitter)
             print(message)
+            self.logger.debug(message)
             if not registered and magic_phrase["has_registered"] in message:
                 registered = True
             if not registered and magic_phrase["needs_to_register"] in message:
@@ -204,6 +243,7 @@ class Bot:
             message = self.ircsock.recv(self.recv_size).decode()
             message = message.strip(self.splitter)
             print(message)
+            self.logger.debug(message)
 
             if "raw" in callback:
                 callback["raw"](message)
@@ -243,4 +283,4 @@ class Bot:
                 elif "message" in callback:
                     callback["message"](name, source, response)
             elif "unhandled" in callback:
-                    callback["unhandled"](message)
+                callback["unhandled"](message)

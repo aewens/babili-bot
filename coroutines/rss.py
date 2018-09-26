@@ -49,7 +49,7 @@ class RSS:
 
         self.memory["known"].append(guid)
         
-        use = sub(r"(<\/?[^>]+>)|\\n", "", item.findtext(self.use, ""))
+        use = sub(r"(<\/?[^>]+>)|\n", "", item.findtext(self.use, ""))
         user = item.findtext("author", "").split("@")[0]
         post = "{} (posted by {}) <{}>".format(use, user, guid)
         response = "[{}] {}".format(self.alias, post)

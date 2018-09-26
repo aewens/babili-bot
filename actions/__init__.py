@@ -1,7 +1,7 @@
 from actions.botlist import botlist
 from actions.web import summon, whois
 from actions.access import banish, pardon
-from actions.control import puppet, nomad
+from actions.control import puppet, inject, nomad
 from actions.stupid import hmm, hmmscore, hmmscoreboard
 
 actions = [
@@ -17,37 +17,42 @@ actions = [
     },
     {
         "type": "response",
-        "pattern": ";;!summon \S+ .+",
+        "pattern": "/!summon \S+ .+/",
         "callback": summon
     },
     {
         "type": "response",
-        "pattern": ";;!banish \S+ .+",
+        "pattern": "/!banish \S+ .+/",
         "callback": banish
     },
     {
         "type": "response",
-        "pattern": ";;!pardon \S+",
+        "pattern": "/!pardon \S+/",
         "callback": pardon
     },
     {
         "type": "response",
-        "pattern": ";;!puppet [^|]+\|.+",
+        "pattern": "/!puppet \S+ .+/",
         "callback": puppet
     },
     {
         "type": "response",
-        "pattern": ";;!nomad \S+ \S+",
+        "pattern": "/!inject \S+/",
+        "callback": inject
+    },
+    {
+        "type": "response",
+        "pattern": "/!nomad \S+ \S+/",
         "callback": nomad
     },
     {
         "type": "response",
-        "pattern": ";;hm+",
+        "pattern": "/hm+/",
         "callback": hmm
     },
     {
         "type": "response",
-        "pattern": ";;!hmmscore",
+        "pattern": "/!hmmscore(\s|$)/",
         "callback": hmmscore
     },
     {
@@ -57,7 +62,7 @@ actions = [
     },
     {
         "type": "response",
-        "pattern": ";;!whois \S+",
+        "pattern": "/!whois \S+/",
         "callback": whois
     }
 ]

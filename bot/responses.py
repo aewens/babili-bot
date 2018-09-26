@@ -48,24 +48,21 @@ class Responses:
         if name not in users:
             return False
 
-        response = response.lower().strip()
-        check = {
+        check = response.lower().strip()
+        trig = {
             "name": name,
             "source": source,
-            "response": response
+            "response": response.lower().strip()
         }
-
-        marker = ";;"
-        mlen = len(marker)
 
         for trigger in list(self.triggers.keys()):
             for pattern, callback in self.triggers[trigger].items():
-                if pattern[:mlen] != marker:
-                    if pattern == response and self.allowed(name, source):
+                if pattern[0] != "/" and pattern[-1] != "/":
+                    if pattern == check and self.allowed(name, source):
                         callback(self, name, source, response)
                 else:
-                    regex = re.compile(pattern[mlen:])
-                    if regex.match(check[trigger]) is not None:
+                    regex = re.compile(pattern[1:-1])
+                    if regex.match(trig[trigger]) is not None:
                         if self.allowed(name, source):
                             callback(self, name, source, response)
 
