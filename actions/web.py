@@ -74,6 +74,11 @@ def summon(self, name, source, response):
     confirmation = "{}: You have summoned {}".format(name, user)
     self.bot.send_message(source, confirmation)
 
+def how_dare_you(self, name, source, response):
+    user = response.split("!summon ")[1]
+    rude = "{}: You think you can just summon someone without a reason? Rude."
+    self.bot.send_message(source, rude.format(user))
+
 def whois(self, name, source, response):
     botnick = self.bot.botnick
     domain = response.split("!whois ")[1]

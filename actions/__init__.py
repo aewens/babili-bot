@@ -1,8 +1,8 @@
 from actions.botlist import botlist
-from actions.web import summon, whois
 from actions.access import banish, pardon
 from actions.control import puppet, inject, nomad
-from actions.stupid import hmm, hmmscore, hmmscoreboard
+from actions.web import summon, whois, how_dare_you
+from actions.stupid import score_word, wordscore, wordscoreboard
 
 actions = [
     {
@@ -19,6 +19,11 @@ actions = [
         "type": "response",
         "pattern": "/!summon \S+ .+/",
         "callback": summon
+    },
+    {
+        "type": "response",
+        "pattern": "/!summon \S+$/",
+        "callback": how_dare_you
     },
     {
         "type": "response",
@@ -48,17 +53,32 @@ actions = [
     {
         "type": "response",
         "pattern": "/hm+/",
-        "callback": hmm
+        "callback": score_word("hmm", "hm+")
     },
     {
         "type": "response",
         "pattern": "/!hmmscore(\s|$)/",
-        "callback": hmmscore
+        "callback": wordscore("hmm")
     },
     {
         "type": "response",
         "pattern": "!hmmscoreboard",
-        "callback": hmmscoreboard
+        "callback": wordscoreboard("hmm")
+    },
+    {
+        "type": "response",
+        "pattern": "/o+f/",
+        "callback": score_word("oof", "o+f")
+    },
+    {
+        "type": "response",
+        "pattern": "/!oofscore(\s|$)/",
+        "callback": wordscore("oof")
+    },
+    {
+        "type": "response",
+        "pattern": "!oofscoreboard",
+        "callback": wordscoreboard("oof")
     },
     {
         "type": "response",

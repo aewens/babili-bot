@@ -68,17 +68,26 @@ def handle_mode(channel, mode):
         try_to_king_me(channel)
 
 def handle_invite(channel, name):
+    changed = False
+
     if channel in kingme:
         try_to_king_me(channel)
 
     users = bot.memories["users"]
     if name not in users:
         bot.memories["users"][name] = dict()
+        changed = True
 
     if "invites" not in users[name]:
         bot.memories["users"][name]["invites"] = list()
+        changed = True
 
-    bot.memories["users"][name]["invites"].append(channel)
+    if channel not in bot.memories["users"][name]["invites"]:
+        bot.memories["users"][name]["invites"].append(channel)
+        changed = True
+
+    if changed:
+        bot.thread(bot.save_memories)
 
 def handle_kick(name):
     users = bot.memories["users"]
@@ -86,6 +95,7 @@ def handle_kick(name):
         bot.memories["users"][name] = dict()
 
     bot.memories["users"][name]["kicker"] = True
+    bot.thread(bot.save_memories)
 
 def handle_message(name, source, response):
     responses.parse(name, source, response)

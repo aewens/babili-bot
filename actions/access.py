@@ -16,7 +16,7 @@ def banish(self, name, source, response):
         "when": datetime.now().timestamp()
     }
 
-    self.bot.save_memories()
+    self.bot.thread(self.bot.save_memories)
 
     confirmation = "{} has been banished for reason: {}".format(user, reason)
     self.bot.send_message(source, confirmation)
@@ -31,7 +31,7 @@ def pardon(self, name, source, response):
 
     del self.bot.memories["users"][user]["blacklist"]
 
-    self.bot.save_memories()
+    self.bot.thread(self.bot.save_memories)
 
     confirmation = "{} has been pardoned".format(user)
     self.bot.send_message(source, confirmation)
