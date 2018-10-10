@@ -13,13 +13,14 @@ logging.basicConfig(
 )
 
 class Bot:
-    def __init__(self, server, port, channels):
+    def __init__(self, server, port):
         self.ircsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.logger = logging.getLogger("")
         self.server = server
         self.port = port
-        self.channels = channels
+        self.channels = []
         self.running = True
+        self.crashed = False
         
         self.settings = dict()
         self.places = list()
@@ -28,7 +29,7 @@ class Bot:
         self.botnick = ""
 
         self.recv_size = 2048
-        self.splitter = "\n\r"
+        self.splitter = "\r\n"
 
     def send(self, message, *args):
         response = message.format(*args) + "\n"
@@ -66,7 +67,7 @@ class Bot:
         magic_string = "End of /NAMES list."
         while magic_string not in message:
             message = self.ircsock.recv(self.recv_size).decode()
-            message = message.strip(self.splitter)
+            # message = message.strip(self.splitter)
             print(message)
             self.logger.debug(message)
 
@@ -76,8 +77,8 @@ class Bot:
             print("DEBUG: Skipping adding users from {}".format(chan))
             return
 
-        raw_users = user_listing[1].split(" \r\n")[0].split(" ")
-        # prefix_filter = lambda u: u[1:] if "~" in u or "@" in u or "+" in u else u
+        splitter = " {}".format(self.splitter)
+        raw_users = user_listing[1].split(splitter)[0].split(" ")
         users = list(filter(self.parse_name, raw_users))
         remember = self.memories["users"]
         for user in users:
@@ -181,7 +182,8 @@ class Bot:
     def load_settings(self, location):
         set_vars = [
             "author",
-            "botnick"
+            "botnick",
+            "channels"
         ]
 
         path = "{}/{}".format(self.location, location)
@@ -231,7 +233,6 @@ class Bot:
         while magic_string not in message:
             message = self.ircsock.recv(self.recv_size).decode()
             message = message.strip(self.splitter)
-            print(message)
             self.logger.debug(message)
             if not registered and magic_phrase["has_registered"] in message:
                 registered = True
@@ -254,16 +255,20 @@ class Bot:
             if getattr(self.tasks, "run", None) is not None:
                 self.tasks.run()
 
-        while self.running:
-            message = self.ircsock.recv(self.recv_size).decode()
+        while self.running or not self.crashed:
+            message = ""
+            while self.splitter not in message:
+                message = self.ircsock.recv(self.recv_size).decode()
+
             message = message.strip(self.splitter)
-            print(message)
+            self.logger.debug("{}".format(message))
 
-            if "new_nick' commands." in message:
+            if "ERROR" in message or ":Closing link:" in message:
                 self.logger.warning(message)
-                self.send_message(self.author, "ERROR: {}".format(message))
-
-            self.logger.debug(message)
+                self.crashed = True
+                if "crashed" in callback:
+                    callback["crashed"]()
+                    break
 
             if "raw" in callback:
                 callback["raw"](message)

@@ -15,27 +15,9 @@ parser.add_argument(
     default="settings.json", 
     help="Load config file"
 )
-parser.add_argument(
-    "-d",
-    "--debug",
-    dest="debug",
-    action="store_true",
-    help="Runs in debug mode"
-)
 arguments = parser.parse_args()
 
-debug = arguments.debug
-kingme = [] if debug else ["#chaos"]
-channels = ["#bots", "#insane"] 
-if not debug:
-    channels.extend([
-        "#meta",
-        "#team",
-        "#chaos",
-        "#tildeverse"
-    ])
-
-bot = Bot("127.0.0.1", 6667, channels)
+bot = Bot("127.0.0.1", 6667)
 responses = Responses(bot)
 tasks = Tasks(bot)
 
@@ -69,6 +51,7 @@ def handle_mode(channel, mode):
 
 def handle_invite(channel, name):
     changed = False
+    kingme = bot.settings.get("extras", dict()).get("kingme", [])
 
     if channel in kingme:
         try_to_king_me(channel)
@@ -102,6 +85,19 @@ def handle_message(name, source, response):
     if response == "!debug":
         print("::", bot.memories)
 
+def handle_crashed():
+    bot.crashed = False
+    bot.stop()
+    bot.tasks = tasks
+    bot.start(arguments.config, dirname(realpath(__file__)), {
+        "pm": handle_pm,
+        "mode": handle_mode,
+        "invite": handle_invite,
+        "kick": handle_kick,
+        "crashed": handle_crashed,
+        "message": handle_message
+    })
+
 if __name__ == "__main__":
     bot.tasks = tasks
     bot.start(arguments.config, dirname(realpath(__file__)), {
@@ -109,5 +105,6 @@ if __name__ == "__main__":
         "mode": handle_mode,
         "invite": handle_invite,
         "kick": handle_kick,
+        "crashed": handle_crashed,
         "message": handle_message
     })
