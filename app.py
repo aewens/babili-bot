@@ -21,14 +21,6 @@ bot = Bot("127.0.0.1", 6667)
 responses = Responses(bot)
 tasks = Tasks(bot)
 
-for action in actions:
-    if "type" in action and "pattern" in action and "callback" in action:
-        responses.add_trigger(
-            action["type"], 
-            action["pattern"], 
-            action["callback"]
-        )
-
 # for coro in coroutines:
 #     worker = coro["worker"]
 #     interval = coro["interval"]
@@ -36,6 +28,14 @@ for action in actions:
 #     coro_state = state if state is not None else (bot,)
 #     tasks.add_coroutine(worker, interval, coro_state)
 tasks.coroutines = coroutines
+
+for action in actions:
+    if "type" in action and "pattern" in action and "callback" in action:
+        responses.add_trigger(
+            action["type"], 
+            action["pattern"], 
+            action["callback"]
+        )
 
 def try_to_king_me(channel):
     bot.send_message("ChanServ", "REGISTER {}", channel)
@@ -83,11 +83,16 @@ def handle_kick(name):
 def handle_message(name, source, response):
     responses.parse(name, source, response)
     if response == "!debug":
-        print("::", bot.memories)
+        bot.logger.debug(":: {}".format(bot.memories))
 
 def handle_crashed():
-    bot.crashed = False
-    bot.stop()
+    bot.logger.debug("Rebooting")
+    bot.crashed = True
+    bot.tasks.stop()
+
+    tasks = Tasks(bot)
+    tasks.coroutines = coroutines
+
     bot.tasks = tasks
     bot.start(arguments.config, dirname(realpath(__file__)), {
         "pm": handle_pm,

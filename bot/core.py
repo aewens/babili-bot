@@ -195,8 +195,8 @@ class Bot:
                 setattr(self, name, attr)
 
     def stop(self):
+        self.send("QUIT :Overheating, powering down")
         self.running = False
-        self.send("QUIT")
 
     def start(self, config, location, callback):
         message = ""
@@ -255,7 +255,7 @@ class Bot:
             if getattr(self.tasks, "run", None) is not None:
                 self.tasks.run()
 
-        while self.running or not self.crashed:
+        while self.running:
             message = ""
             while self.splitter not in message:
                 message = self.ircsock.recv(self.recv_size).decode()
@@ -263,9 +263,9 @@ class Bot:
             message = message.strip(self.splitter)
             self.logger.debug("{}".format(message))
 
-            if "ERROR" in message or ":Closing link:" in message:
+            if ":Closing link:" in message:
                 self.logger.warning(message)
-                self.crashed = True
+                self.stop()
                 if "crashed" in callback:
                     callback["crashed"]()
                     break
@@ -277,6 +277,12 @@ class Bot:
                 self.ping(message)
                 if "ping" in callback:
                     callback["ping"]()
+            elif "PRIVMSG " in message:
+                name, source, response = self.parse(message)
+                if source == self.botnick and "pm" in callback:
+                    callback["pm"](name, response)
+                elif "message" in callback:
+                    callback["message"](name, source, response)
             elif "MODE " in message:
                 channel, mode = self.handle_mode(message)
                 if "mode" in callback:
@@ -301,11 +307,5 @@ class Bot:
                 channel, name = self.handle_invite(message)
                 if "invite" in callback:
                     callback["invite"](channel, name)
-            elif "PRIVMSG " in message:
-                name, source, response = self.parse(message)
-                if source == self.botnick and "pm" in callback:
-                    callback["pm"](name, response)
-                elif "message" in callback:
-                    callback["message"](name, source, response)
             elif "unhandled" in callback:
                 callback["unhandled"](message)
