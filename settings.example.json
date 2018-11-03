@@ -1,5 +1,9 @@
 {
+    "botnick": "",
     "password": "",
     "email": "",
-    "confirm": ""
+    "confirm": "",
+    "author": "",
+    "channels": [],
+    "extras": {}
 }

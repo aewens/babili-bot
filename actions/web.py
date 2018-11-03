@@ -74,6 +74,11 @@ def summon(self, name, source, response):
     confirmation = "{}: You have summoned {}".format(name, user)
     self.bot.send_message(source, confirmation)
 
+def how_dare_you(self, name, source, response):
+    user = response.split("!summon ")[1]
+    rude = "{}: You think you can just summon someone without a reason? Rude."
+    self.bot.send_message(source, rude.format(user))
+
 def whois(self, name, source, response):
     botnick = self.bot.botnick
     domain = response.split("!whois ")[1]
@@ -89,13 +94,14 @@ def whois(self, name, source, response):
     except HTTPError:
         self.bot.send_message(source, "{} cannot exist".format(domain))
         return
+        
+    registered = data.get("registered", False)
+    nameservers = len(data.get("nameservers", list())) > 0
+    self.bot.logger.debug("WHOIS: {}".format(data))
 
-    registered = data.get("registered", None)
-    if registered is not None:
-        nameservers = len(data.get("nameservers", ""))
-        registrar = data.get("registrar", dict())
-        is_registered = "id" in registrar or nameservers > 0
-        status = "registered" if is_registered else "available"
-        self.bot.send_message(source, "{} is '{}'".format(domain, status))
+    if registered and nameservers:
+        self.bot.send_message(source, "{} is '{}'".format(domain, "registered"))
+    elif not (registered or nameservers):
+        self.bot.send_message(source, "{} is '{}'".format(domain, "available"))
     else:
         self.bot.send_message(source, "{} might be available".format(domain))

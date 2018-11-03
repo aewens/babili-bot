@@ -1,6 +1,6 @@
 from xml.etree import ElementTree as etree
 from urllib.request import Request, urlopen
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from json import loads, dumps
 from re import sub
 
@@ -49,7 +49,7 @@ class RSS:
 
         self.memory["known"].append(guid)
         
-        use = sub(r"(<\/?[^>]+>)|\\n", "", item.findtext(self.use, ""))
+        use = sub(r"(<\/?[^>]+>)|\n", "", item.findtext(self.use, ""))
         user = item.findtext("author", "").split("@")[0]
         post = "{} (posted by {}) <{}>".format(use, user, guid)
         response = "[{}] {}".format(self.alias, post)
@@ -61,6 +61,8 @@ class RSS:
         try:
             response = urlopen(req).read()
         except HTTPError:
+            return
+        except URLError:
             return
 
         feed = etree.fromstring(response)

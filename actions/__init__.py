@@ -1,8 +1,8 @@
 from actions.botlist import botlist
-from actions.web import summon, whois
 from actions.access import banish, pardon
-from actions.control import puppet, nomad
-from actions.stupid import hmm, hmmscore, hmmscoreboard
+from actions.control import puppet, inject, nomad
+from actions.web import summon, whois, how_dare_you
+from actions.stupid import score_word, wordscore, wordscoreboard
 
 actions = [
     {
@@ -17,47 +17,72 @@ actions = [
     },
     {
         "type": "response",
-        "pattern": ";;!summon \S+ .+",
+        "pattern": "/!summon \S+ .+/",
         "callback": summon
     },
     {
         "type": "response",
-        "pattern": ";;!banish \S+ .+",
+        "pattern": "/!summon \S+$/",
+        "callback": how_dare_you
+    },
+    {
+        "type": "response",
+        "pattern": "/!banish \S+ .+/",
         "callback": banish
     },
     {
         "type": "response",
-        "pattern": ";;!pardon \S+",
+        "pattern": "/!pardon \S+/",
         "callback": pardon
     },
     {
         "type": "response",
-        "pattern": ";;!puppet [^|]+\|.+",
+        "pattern": "/!puppet \S+ .+/",
         "callback": puppet
     },
     {
         "type": "response",
-        "pattern": ";;!nomad \S+ \S+",
+        "pattern": "/!inject \S+/",
+        "callback": inject
+    },
+    {
+        "type": "response",
+        "pattern": "/!nomad \S+ \S+/",
         "callback": nomad
     },
     {
         "type": "response",
-        "pattern": ";;hm+",
-        "callback": hmm
+        "pattern": "/hm+/",
+        "callback": score_word("hmm", "hm+")
     },
     {
         "type": "response",
-        "pattern": ";;!hmmscore",
-        "callback": hmmscore
+        "pattern": "/!hmmscore(\s|$)/",
+        "callback": wordscore("hmm")
     },
     {
         "type": "response",
         "pattern": "!hmmscoreboard",
-        "callback": hmmscoreboard
+        "callback": wordscoreboard("hmm")
     },
     {
         "type": "response",
-        "pattern": ";;!whois \S+",
+        "pattern": "/o+f/",
+        "callback": score_word("oof", "o+f")
+    },
+    {
+        "type": "response",
+        "pattern": "/!oofscore(\s|$)/",
+        "callback": wordscore("oof")
+    },
+    {
+        "type": "response",
+        "pattern": "!oofscoreboard",
+        "callback": wordscoreboard("oof")
+    },
+    {
+        "type": "response",
+        "pattern": "/!whois \S+/",
         "callback": whois
     }
 ]

@@ -34,7 +34,7 @@ coroutines = [
         "state": {
             "alias": "links-comments",
             "source": "https://tilde.news/comments.rss",
-            "use": "summary",
+            "use": "description",
             "channels": ["#tildeverse"]
         }
     }

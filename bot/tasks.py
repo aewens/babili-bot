@@ -32,6 +32,10 @@ class Tasks:
             "state": state
         })
 
+    def stop(self):
+        list(map(self.scheduler.cancel, self.scheduler.queue))
+        self.thread.stop()
+
     def run(self):
         self.thread.daemon = True
         self.thread.start()

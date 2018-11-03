@@ -2,6 +2,7 @@
 settings.json
 settings.demo.json
 data/*.json
+logs/*.log*
 irc/
 
 # ---> Python
