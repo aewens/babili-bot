@@ -12,7 +12,7 @@ parser.add_argument(
     "-c", 
     "--config", 
     dest="config",
-    default="settings.debug.json", 
+    default="settings.json", 
     help="Load config file"
 )
 arguments = parser.parse_args()
