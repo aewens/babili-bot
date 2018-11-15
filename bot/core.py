@@ -263,26 +263,19 @@ class Bot:
             message = message.strip(self.splitter)
             self.logger.debug("{}".format(message))
 
-            if ":Closing link:" in message:
-                self.logger.warning(message)
-                self.stop()
-                if "crashed" in callback:
-                    callback["crashed"]()
-                    break
-
             if "raw" in callback:
                 callback["raw"](message)
 
-            if "PING :" in message:
-                self.ping(message)
-                if "ping" in callback:
-                    callback["ping"]()
-            elif "PRIVMSG " in message:
+            if "PRIVMSG " in message:
                 name, source, response = self.parse(message)
                 if source == self.botnick and "pm" in callback:
                     callback["pm"](name, response)
                 elif "message" in callback:
                     callback["message"](name, source, response)
+            elif "PING :" in message:
+                self.ping(message)
+                if "ping" in callback:
+                    callback["ping"]()
             elif "MODE " in message:
                 channel, mode = self.handle_mode(message)
                 if "mode" in callback:
@@ -308,4 +301,11 @@ class Bot:
                 if "invite" in callback:
                     callback["invite"](channel, name)
             elif "unhandled" in callback:
-                callback["unhandled"](message)
+                if "unhandled" in callback:
+                    callback["unhandled"](message)
+            elif ":Closing link:" in message:
+                self.logger.warning(message)
+                self.stop()
+                if "crashed" in callback:
+                    callback["crashed"]()
+                    break

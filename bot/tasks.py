@@ -11,6 +11,9 @@ class Tasks:
         self.states = dict()
 
     def periodic(self, scheduler, interval, action, index, state=dict()):
+        if not self.states[index]:
+            return
+            
         self.states[index] = action(state)
         scheduler.enter(interval, 1, self.periodic, (
             scheduler, interval, action, index, self.states[index]
@@ -34,7 +37,9 @@ class Tasks:
 
     def stop(self):
         list(map(self.scheduler.cancel, self.scheduler.queue))
-        self.thread.stop()
+        for key, value in self.states.items():
+            self.states[key] = False
+        self.thread.join()
 
     def run(self):
         self.thread.daemon = True
